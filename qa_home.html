@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>KINGBLACK</title>
+
+        <link rel="icon" type="image/png" href="https://kingblack.test/images/logos.png">
+        <link rel="shortcut icon" type="image/png" href="https://kingblack.test/images/logos.png">
+
+        <link rel="preconnect" href="https://fonts.bunny.net">
+        <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600,700" rel="stylesheet">
+
+        <link rel="preload" as="style" href="https://kingblack.test/build/assets/app-Bvs0c4Km.css" /><link rel="modulepreload" as="script" href="https://kingblack.test/build/assets/app-C_N_Tnmm.js" /><link rel="stylesheet" href="https://kingblack.test/build/assets/app-Bvs0c4Km.css" /><script type="module" src="https://kingblack.test/build/assets/app-C_N_Tnmm.js"></script>    </head>
+    <body class="font-sans antialiased">
+        <header class="sticky top-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur" data-reveal="fade-in">
+    <nav class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" aria-label="Navigasi utama">
+        <div class="flex min-h-16 items-center justify-between gap-3 lg:min-h-20">
+            
+            <a
+                href="https://kingblack.test"
+                class="inline-flex min-w-0 shrink-0 items-center gap-3 text-lg font-bold tracking-tight text-black sm:text-xl"
+                aria-label="KINGBLACK home"
+            >
+                <img src="https://kingblack.test/images/logos.png" alt="" class="h-9 w-9 shrink-0 object-contain">
+                <span class="truncate">KINGBLACK</span>
+            </a>
+
+            
+            <ul class="hidden items-center gap-8 text-sm font-medium text-gray-700 lg:flex">
+                <li>
+                    <a href="#hero" data-nav-link class="border-b border-black pb-1 text-black transition hover:text-black">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#program" data-nav-link class="border-b border-transparent pb-1 transition hover:text-black">
+                        Program
+                    </a>
+                </li>
+                <li>
+                    <a href="#about" data-nav-link class="border-b border-transparent pb-1 transition hover:text-black">
+                        Tentang
+                    </a>
+                </li>
+                <li>
+                    <a href="#faq" data-nav-link class="border-b border-transparent pb-1 transition hover:text-black">
+                        FAQ
+                    </a>
+                </li>
+                <li>
+                    <a href="#cta" data-nav-link class="border-b border-transparent pb-1 transition hover:text-black">
+                        Kontak
+                    </a>
+                </li>
+            </ul>
+
+            
+            <a
+                href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20konsultasi%20program%20KINGBLACK"
+                class="hidden shrink-0 items-center justify-center rounded-lg bg-gray-950 px-6 py-3 text-sm font-bold text-white transition hover:bg-gray-800 lg:inline-flex"
+            >
+                daftar sekarang
+            </a>
+
+            
+            <details class="group relative lg:hidden">
+                <summary
+                    class="flex h-11 w-11 cursor-pointer list-none items-center justify-center rounded-md border border-gray-300 text-black transition hover:bg-gray-100 [&::-webkit-details-marker]:hidden"
+                    aria-label="Buka menu navigasi"
+                >
+                    <svg class="h-6 w-6 group-open:hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                        <path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"></path>
+                    </svg>
+                    <svg class="hidden h-6 w-6 group-open:block" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                        <path stroke-linecap="round" d="M6 6l12 12M18 6L6 18"></path>
+                    </svg>
+                </summary>
+
+                <div class="absolute right-0 top-full mt-3 w-[min(20rem,calc(100vw-2rem))] rounded-lg border border-gray-200 bg-white p-2 shadow-lg">
+                    <a href="#hero" data-nav-link class="block rounded-md bg-gray-100 px-4 py-3 text-sm font-bold text-black">
+                        home
+                    </a>
+                    <a href="#program" data-nav-link class="block rounded-md px-4 py-3 text-sm font-medium text-gray-700 transition hover:bg-gray-100 hover:text-black">
+                        program
+                    </a>
+                    <a href="#about" data-nav-link class="block rounded-md px-4 py-3 text-sm font-medium text-gray-700 transition hover:bg-gray-100 hover:text-black">
+                        tentang
+                    </a>
+                    <a href="#faq" data-nav-link class="block rounded-md px-4 py-3 text-sm font-medium text-gray-700 transition hover:bg-gray-100 hover:text-black">
+                        faq
+                    </a>
+                    <a href="#cta" data-nav-link class="block rounded-md px-4 py-3 text-sm font-medium text-gray-700 transition hover:bg-gray-100 hover:text-black">
+                        kontak
+                    </a>
+                    <a
+                        href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20konsultasi%20program%20KINGBLACK"
+                        class="mt-2 flex w-full items-center justify-center rounded-md bg-gray-950 px-4 py-3 text-sm font-bold text-white transition hover:bg-gray-800"
+                    >
+                        daftar sekarang
+                    </a>
+                </div>
+            </details>
+        </div>
+    </nav>
+</header>
+    <div
+    id="welcome-popup"
+    class="fixed inset-0 z-[100] hidden items-center justify-center bg-black/70 px-4 py-6 backdrop-blur-sm sm:px-6"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Promo KINGBLACK"
+    data-welcome-popup
+>
+    <div class="relative w-full max-w-[34rem]">
+        <button
+            type="button"
+            class="absolute -right-2 -top-3 z-10 inline-flex h-9 w-9 items-center justify-center rounded-full bg-white text-xl font-medium leading-none text-black shadow-lg transition hover:scale-105 hover:bg-gray-100 focus:outline-none focus:ring focus:ring-gray-300 sm:-right-4 sm:-top-4"
+            aria-label="Tutup popup"
+            data-welcome-popup-close
+        >
+            &times;
+        </button>
+
+        <a
+            href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20konsultasi%20program%20KINGBLACK"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Hubungi KINGBLACK via WhatsApp"
+        >
+            <img
+                src="https://kingblack.test/images/poster.png"
+                alt="Promo program KINGBLACK"
+                class="max-h-[86vh] w-full rounded-lg object-contain shadow-2xl transition hover:scale-[1.01]"
+            >
+        </a>
+    </div>
+</div>
+
+    <main>
+        <section 
+    id="hero" 
+    class="hero-section relative isolate overflow-hidden py-0"
+    style="
+        background-image: url('https://kingblack.test/images/s.png');
+        background-size: cover;
+        background-position: center 60%;
+        background-repeat: no-repeat;
+    "
+>
+    
+    <div class="absolute inset-0 -z-10 bg-black/20"></div>
+    <div class="absolute inset-0 -z-10 bg-gradient-to-r from-black/80 via-black/25 to-slate-950/20"></div>
+    <div class="absolute inset-0 -z-10 bg-gradient-to-b from-black/40 via-transparent to-slate-950/70"></div>
+
+    
+    <div class="pointer-events-none absolute inset-x-0 bottom-0 z-0 h-48 bg-gradient-to-b from-transparent via-slate-950/70 to-slate-950"></div>
+
+    <div class="relative z-10 mx-auto grid min-h-screen max-w-7xl items-center gap-10 px-6 pt-20 pb-32 lg:grid-cols-[1.05fr_0.95fr] lg:px-8 lg:pt-24 lg:pb-40">
+        <div class="hero-content max-w-3xl text-black">
+            <p class="mt-6 text-sm font-bold uppercase tracking-[0.28em] text-yellow-400 sm:text-base" data-reveal="fade-in">
+                Executive Preparation Program
+            </p>
+
+            <h1 class="mt-6 max-w-4xl text-4xl font-black leading-tight text-white sm:text-5xl lg:text-6xl" data-reveal="slide-up" data-reveal-delay="120">
+                PERSIAPAN TERARAH UNTUK SELEKSI TNI, POLRI, KEDINASAN, CPNS, PTN & KEDOKTERAN
+            </h1>
+
+            <p class="mt-6 max-w-2xl text-base leading-8 text-gray-100 sm:text-lg" data-reveal="slide-up" data-reveal-delay="220">
+                Kingblack Executive bukan sekadar bimbingan belajar, tetapi program pendampingan seleksi yang dirancang untuk membentuk kesiapan peserta secara akademik, fisik, dan mental sejak tahap awal hingga menghadapi proses seleksi.
+            </p>
+
+            <div class="hero-actions flex flex-col gap-4 pt-8 sm:flex-row" data-reveal="slide-up" data-reveal-delay="320">
+                <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20konsultasi%20program%20KINGBLACK" class="inline-flex items-center justify-center rounded-md bg-white px-6 py-3 text-sm font-bold text-black shadow-lg shadow-black/25 transition hover:-translate-y-0.5 hover:bg-yellow-400">
+                    Konsultasi Eksklusif
+                </a>
+
+                <a href="#program" class="inline-flex items-center justify-center rounded-md border border-white/30 bg-white/10 px-6 py-3 text-sm font-bold text-white shadow-sm backdrop-blur transition hover:-translate-y-0.5 hover:bg-white hover:text-black">
+                    Eksplor Program
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+        <section  
+    id="trust-bar"
+    class="trust-bar relative isolate overflow-hidden bg-cover bg-center bg-no-repeat py-20 sm:py-32" 
+    style="background-image: url('https://kingblack.test/images/blacks.jpg');"
+    aria-label="Pilihan tujuan institusi"
+>
+    
+    <div class="absolute inset-0 z-0 bg-slate-950/75"></div>
+    <div class="absolute inset-0 z-0 bg-gradient-to-r from-slate-950 via-slate-950/70 to-slate-950/50"></div>
+
+    
+    <div class="pointer-events-none absolute inset-x-0 top-0 z-0 h-40 bg-gradient-to-b from-slate-950 to-transparent"></div>
+
+    
+    <div class="pointer-events-none absolute inset-x-0 bottom-0 z-0 h-32 bg-gradient-to-b from-transparent to-slate-950"></div>
+    
+    <div class="site-container relative z-10">
+        <div class="mb-16 text-center" data-reveal="slide-up">
+            <h2 class="mx-auto max-w-3xl text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
+                Pilih Tujuan Impian Kamu, KingBlack Siap Membantu
+            </h2>
+        </div>
+        
+        <div class="flex flex-wrap items-center justify-center gap-8 sm:gap-12 lg:gap-16">
+            <div class="flex items-center justify-center" data-reveal="zoom-in" data-reveal-delay="80">
+                <img src="https://kingblack.test/images/logo_tni.png" alt="Logo TNI" class="h-20 w-auto opacity-80 transition hover:scale-105 hover:opacity-100 sm:h-24" />
+            </div>
+
+            <div class="flex items-center justify-center" data-reveal="zoom-in" data-reveal-delay="160">
+                <img src="https://kingblack.test/images/logo_polri.png" alt="Logo POLRI" class="h-20 w-auto opacity-80 transition hover:scale-105 hover:opacity-100 sm:h-24" />
+            </div>
+
+            <div class="flex items-center justify-center" data-reveal="zoom-in" data-reveal-delay="240">
+                <img src="https://kingblack.test/images/logo_akmil.png" alt="Logo AKMIL" class="h-20 w-auto opacity-80 transition hover:scale-105 hover:opacity-100 sm:h-24" />
+            </div>
+
+            <div class="flex items-center justify-center" data-reveal="zoom-in" data-reveal-delay="320">
+                <img src="https://kingblack.test/images/logo_akpol.png" alt="Logo AKPOL" class="h-20 w-auto opacity-80 transition hover:scale-105 hover:opacity-100 sm:h-24" />
+            </div>
+        </div>
+    </div>
+</section>
+        <section id="problem" class="home-section bg-white py-16 sm:py-20">
+    <div class="mx-auto max-w-6xl px-6 lg:px-10">
+        <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
+
+            
+            
+<div class="w-full" data-reveal="slide-right">
+    <div class="mx-auto w-full max-w-[360px] overflow-hidden rounded-[2rem] bg-black shadow-2xl shadow-gray-900/20">
+        <div class="aspect-[9/16] w-full">
+            <iframe
+                class="h-full w-full"
+                src="https://www.tiktok.com/player/v1/7635259107124989202?controls=1&description=0"
+                title="Video TikTok Kingblack Executive"
+                allow="fullscreen"
+                loading="lazy">
+            </iframe>
+        </div>
+    </div>
+</div>
+
+            
+            <div class="flex flex-col justify-center">
+                <h2 class="text-xl font-bold italic uppercase tracking-wide text-black sm:text-2xl" data-reveal="slide-left">
+                    KENAPA HARUS KINGBLACK EXECUTIVE?
+                </h2>
+
+                <div class="mt-5 space-y-4 text-sm leading-7 text-gray-700 text-justify" data-reveal="slide-left" data-reveal-delay="120">
+                    <p>
+                        <strong>Kingblack Executive</strong> hadir untuk membantu kamu mempersiapkan diri secara maksimal
+                        dalam menghadapi seleksi TNI, POLRI, maupun sekolah kedinasan. Dengan sistem pembinaan
+                        yang terarah, kamu akan dibimbing langkah demi langkah agar lebih fokus memperbaiki
+                        kekurangan baik dari sisi akademik, jasmani, maupun persyaratan seleksi lainnya.
+                    </p>
+
+                    <p>
+                        Banyak peserta gagal bukan karena tidak memiliki kemampuan, tetapi karena kurangnya
+                        persiapan dan arahan yang tepat. Akibatnya, harus mengulang kembali di tahun berikutnya,
+                        dan tentu hal tersebut sangat merugikan,
+                        <strong>karena waktu yang telah berlalu tidak akan kembali.</strong>
+                    </p>
+
+                    <p>
+                        Oleh karena itu, bersama <strong>Kingblack Executive</strong> kamu akan mendapatkan pendampingan
+                        mulai dari proses pemberkasan, tes kemampuan dasar, tes jasmani, hingga tahapan seleksi lainnya
+                        agar kamu lebih siap menghadapi setiap proses menuju impian menjadi bagian dari TNI, POLRI,
+                        maupun sekolah kedinasan.
+                    </p>
+
+                    <p>
+                        Mau <strong><a href="#" class="text-blue-900 hover:underline">Masuk Akmil</a></strong>,
+                        <strong><a href="#" class="text-blue-700 hover:underline">Masuk AKPOL</a></strong>,
+                        <strong><a href="#" class="text-blue-700 hover:underline">Sekolah Kedinasan</a></strong>,
+                        <strong>Kingblack Executive</strong> siap membantu mendampingi kamu mulai dari persiapan awal
+                        hingga lolos tes seleksi.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+        <section id="program" class="relative isolate overflow-hidden bg-black py-20 sm:py-24">
+    <!-- Background -->
+    <div 
+        class="absolute inset-0 -z-20 bg-cover bg-center bg-no-repeat opacity-66 grayscale"
+        style="background-image: url('https://kingblack.test/images/asd.jpg');"
+    ></div>
+    <div class="absolute inset-0 -z-10 bg-black/85"></div>
+    <div class="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_center,rgba(255,215,120,0.08),transparent_40%)]"></div>
+    <div class="absolute bottom-0 left-0 -z-10 h-40 w-40 bg-yellow-500/10 blur-3xl"></div>
+    <div class="absolute right-0 top-0 -z-10 h-52 w-52 bg-yellow-500/10 blur-3xl"></div>
+
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <!-- Header -->
+        <div class="mx-auto max-w-3xl text-center" data-reveal="slide-up">
+            <p class="text-xs font-bold uppercase tracking-[0.28em] text-white">
+                Program Kingblack
+            </p>
+            <h2 class="mt-4 text-3xl font-black uppercase leading-tight text-white sm:text-4xl lg:text-5xl">
+                Pilih Program Terbaik
+                <span class="block text-white">Untuk Masa Depan Gemilang</span>
+            </h2>
+            <p class="mt-4 text-sm leading-7 text-gray-300 sm:text-base">
+                Program persiapan terlengkap untuk seleksi TNI, POLRI, dan Sekolah Kedinasan.
+            </p>
+        </div>
+
+        <!-- Cards -->
+        <div class="mt-14 grid grid-cols-1 gap-6 lg:grid-cols-4">
+
+            <!-- Executive -->
+            <article class="relative overflow-hidden rounded-3xl border border-yellow-500/60 bg-white/5 p-6 shadow-[0_0_30px_rgba(234,179,8,0.15)] backdrop-blur-sm" data-reveal="zoom-in" data-reveal-delay="80">
+                <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,215,120,0.12),transparent_50%)]"></div>
+
+                <div class="relative z-10">
+                    <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-yellow-500/40 bg-yellow-500/10 px-3 py-1 text-[10px] font-bold uppercase tracking-[0.2em] text-yellow-400">
+                        <span>program unggulan</span>
+                    </div>
+
+                    <div class="flex h-12 w-12 items-center justify-center rounded-2xl border border-yellow-500/40 bg-yellow-500/10 text-yellow-400">
+                        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M5 16L3 6l5.5 4L12 3l3.5 7L21 6l-2 10H5zm0 2h14v2H5v-2z"/>
+                        </svg>
+                    </div>
+
+                    <h3 class="mt-5 text-2xl font-black uppercase text-white">
+                        Executive
+                    </h3>
+
+                    <p class="mt-4 text-sm leading-7 text-gray-300">
+                        Program premium terlengkap mencakup semua aspek seleksi secara menyeluruh dan terarah.
+                    </p>
+
+                    <ul class="mt-5 space-y-2 text-sm text-gray-200">
+                        <li class="flex items-start gap-2">
+                            <span class="mt-1 text-yellow-400">✓</span>
+                            <span>Jasmani & Fisik</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="mt-1 text-yellow-400">✓</span>
+                            <span>Akademik</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="mt-1 text-yellow-400">✓</span>
+                            <span>Psikotest</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="mt-1 text-yellow-400">✓</span>
+                            <span>Strategi & Mental</span>
+                        </li>
+                    </ul>
+
+                    <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20tertarik%20dengan%20Program%20Executive%20KINGBLACK" class="mt-8 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-yellow-300 via-yellow-500 to-yellow-600 px-4 py-3 text-sm font-black uppercase tracking-wide text-black transition hover:-translate-y-0.5">
+                        Lihat Detail
+                        <span>→</span>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Jasmani / Fisik -->
+            <article class="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm transition hover:border-yellow-500/40 hover:bg-white/10" data-reveal="zoom-in" data-reveal-delay="180">
+                <div class="flex h-12 w-12 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white">
+                    <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                        <path d="M6 9v6m12-6v6M3 10h3v4H3v-4zm15 0h3v4h-3v-4zM9 8h6v8H9V8z"/>
+                    </svg>
+                </div>
+
+                <h3 class="mt-5 text-2xl font-black uppercase text-white">
+                    Jasmani / Fisik
+                </h3>
+
+                <p class="mt-4 text-sm leading-7 text-gray-300">
+                    Pembinaan fisik terarah untuk membangun kekuatan, stamina, dan performa terbaik.
+                </p>
+
+                <ul class="mt-5 space-y-2 text-sm text-gray-200">
+                    <li class="flex items-start gap-2"><span class="mt-1 text-yellow-400">✓</span><span>Latihan Terstruktur</span></li>
+                    <li class="flex items-start gap-2"><span class="mt-1 text-yellow-400">✓</span><span>Tes Fisik Lengkap</span></li>
+                    <li class="flex items-start gap-2"><span class="mt-1 text-yellow-400">✓</span><span>Monitoring Progress</span></li>
+                </ul>
+
+                <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20konsultasi%20program%20KINGBLACK" class="mt-8 inline-flex w-full items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-black uppercase tracking-wide text-white transition hover:border-yellow-500/40 hover:text-yellow-400">
+                    Lihat Detail
+                    <span>→</span>
+                </a>
+            </article>
+
+            <!-- Akademik -->
+            <article class="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm transition hover:border-yellow-500/40 hover:bg-white/10" data-reveal="zoom-in" data-reveal-delay="280">
+                <div class="flex h-12 w-12 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white">
+                    <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                        <path d="M4 19.5A2.5 2.5 0 016.5 17H20"/>
+                        <path d="M20 22V6a2 2 0 00-2-2H8a4 4 0 00-4 4v11.5"/>
+                    </svg>
+                </div>
+
+                <h3 class="mt-5 text-2xl font-black uppercase text-white">
+                    Akademik
+                </h3>
+
+                <p class="mt-4 text-sm leading-7 text-gray-300">
+                    Pembelajaran akademik selektif untuk penguasaan materi dan strategi ujian.
+                </p>
+
+                <ul class="mt-5 space-y-2 text-sm text-gray-200">
+                    <li class="flex items-start gap-2"><span class="mt-1 text-yellow-400">✓</span><span>Materi Inti Seleksi</span></li>
+                    <li class="flex items-start gap-2"><span class="mt-1 text-yellow-400">✓</span><span>Try Out & Evaluasi</span></li>
+                    <li class="flex items-start gap-2"><span class="mt-1 text-yellow-400">✓</span><span>Pembahasan Mendalam</span></li>
+                </ul>
+
+                <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20konsultasi%20Program%20Akademik%20KINGBLACK" class="mt-8 inline-flex w-full items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-black uppercase tracking-wide text-white transition hover:border-yellow-500/40 hover:text-yellow-400">
+                    Lihat Detail
+                    <span>→</span>
+                </a>
+            </article>
+
+            <!-- Psikotest -->
+            <article class="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm transition hover:border-yellow-500/40 hover:bg-white/10" data-reveal="zoom-in" data-reveal-delay="380">
+                <div class="flex h-12 w-12 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white">
+                    <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                        <path d="M9.5 17a2.5 2.5 0 100-5 3.5 3.5 0 013.5-3.5A3.5 3.5 0 1116.5 12"/>
+                        <path d="M12 17h.01"/>
+                        <path d="M12 21c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z"/>
+                    </svg>
+                </div>
+
+                <h3 class="mt-5 text-2xl font-black uppercase text-white">
+                    Psikotest
+                </h3>
+
+                <p class="mt-4 text-sm leading-7 text-gray-300">
+                    Latihan psikotest komprehensif untuk mengasah logika, kepribadian, dan stabilitas mental.
+                </p>
+
+                <ul class="mt-5 space-y-2 text-sm text-gray-200">
+                    <li class="flex items-start gap-2"><span class="mt-1 text-yellow-400">✓</span><span>Tes Potensi</span></li>
+                    <li class="flex items-start gap-2"><span class="mt-1 text-yellow-400">✓</span><span>Kepribadian</span></li>
+                    <li class="flex items-start gap-2"><span class="mt-1 text-yellow-400">✓</span><span>Wawancara</span></li>
+                </ul>
+
+                <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20konsultasi%20Program%20Psikotest%20KINGBLACK" class="mt-8 inline-flex w-full items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-black uppercase tracking-wide text-white transition hover:border-yellow-500/40 hover:text-yellow-400">
+                    Lihat Detail
+                    <span>→</span>
+                </a>
+            </article>
+        </div>
+
+        <!-- Bottom Info -->
+
+    </div>
+</section>
+        <section id="facilities" class="home-section bg-white py-16 lg:py-20">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto max-w-2xl text-center" data-reveal="slide-up">
+            <p class="text-sm font-semibold uppercase tracking-[0.2em] text-gray-500">
+                FASILITAS KAMI
+            </p>
+
+            <h2 class="mt-3 text-3xl font-bold leading-tight text-black sm:text-4xl">
+                fasilitas pendukung latihan KINGBLACK
+            </h2>
+
+            <p class="mt-5 text-base leading-8 text-gray-700">
+                KINGBLACK menyediakan fasilitas latihan dan pembelajaran yang mendukung peserta dalam mempersiapkan diri secara lebih terarah.
+            </p>
+        </div>
+
+        <div class="mt-12 grid gap-6 md:grid-cols-3">
+                            <article class="group overflow-hidden border border-gray-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md" data-reveal="slide-up" data-reveal-delay="0">
+                    
+                    
+                    <div class="aspect-[3/4] overflow-hidden bg-gray-100">
+                        <img
+                            src="https://kingblack.test/images//madya.jpg"
+                            alt="Area Latihan Fisik"
+                            class="h-full w-full object-cover object-center grayscale transition duration-500 group-hover:scale-105 group-hover:grayscale-0"
+                        >
+                    </div>
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-black">
+                            Area Latihan Fisik
+                        </h3>
+
+                        <p class="mt-4 text-sm leading-7 text-gray-700">
+                            Fasilitas latihan untuk menunjang persiapan jasmani seperti lari, push-up, sit-up, pull-up, dan latihan ketahanan tubuh.
+                        </p>
+                    </div>
+                </article>
+                            <article class="group overflow-hidden border border-gray-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md" data-reveal="slide-up" data-reveal-delay="120">
+                    
+                    
+                    <div class="aspect-[3/4] overflow-hidden bg-gray-100">
+                        <img
+                            src="https://kingblack.test/images/gym.jpg"
+                            alt="Ruang Pembelajaran"
+                            class="h-full w-full object-cover object-center grayscale transition duration-500 group-hover:scale-105 group-hover:grayscale-0"
+                        >
+                    </div>
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-black">
+                            Ruang Pembelajaran
+                        </h3>
+
+                        <p class="mt-4 text-sm leading-7 text-gray-700">
+                            Ruang belajar yang nyaman untuk pendalaman materi akademik, pembahasan soal, dan sesi evaluasi peserta.
+                        </p>
+                    </div>
+                </article>
+                            <article class="group overflow-hidden border border-gray-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md" data-reveal="slide-up" data-reveal-delay="240">
+                    
+                    
+                    <div class="aspect-[3/4] overflow-hidden bg-gray-100">
+                        <img
+                            src="https://kingblack.test/images/renang.jpg"
+                            alt="Simulasi Tes"
+                            class="h-full w-full object-cover object-center grayscale transition duration-500 group-hover:scale-105 group-hover:grayscale-0"
+                        >
+                    </div>
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-black">
+                            Simulasi Tes
+                        </h3>
+
+                        <p class="mt-4 text-sm leading-7 text-gray-700">
+                            Fasilitas pendukung untuk simulasi psikotest, tryout akademik, dan evaluasi kesiapan peserta sebelum seleksi.
+                        </p>
+                    </div>
+                </article>
+                    </div>
+    </div>
+</section>
+        <section id="about" class="home-section relative overflow-hidden bg-white">
+    <!-- Soft transition dari section sebelumnya -->
+    <div class="pointer-events-none absolute inset-x-0 top-0 z-20 h-20 bg-gradient-to-b from-black/10 to-transparent"></div>
+
+    <!-- Soft White Gold Background -->
+   
+    <div class="relative z-10 grid min-h-[640px] lg:grid-cols-[0.95fr_1.05fr]">
+
+        <!-- Image Left -->
+        <div class="relative min-h-[420px] lg:min-h-[640px]" data-reveal="slide-right">
+            <img 
+                src="https://kingblack.test/images/renang.png" 
+                alt="Kegiatan latihan KINGBLACK" 
+                class="absolute inset-0 h-full w-full object-cover object-center grayscale"
+            />
+
+            <div class="absolute inset-0 bg-black/55"></div>
+            <div class="absolute inset-0 bg-gradient-to-r from-black/75 via-black/45 to-black/10"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-black/45 via-transparent to-transparent"></div>
+        </div>
+
+        <!-- Content Right -->
+        <div class="relative flex items-center px-6 py-16 sm:px-10 lg:px-20">
+            
+            <!-- Diagonal white gold separator -->
+            <div class="absolute inset-y-0 -left-20 hidden w-40 -skew-x-6 bg-[linear-gradient(180deg,#ffffff_0%,#fbf8f1_100%)] lg:block"></div>
+
+            <!-- Subtle background detail -->
+            <div class="absolute right-0 top-0 h-64 w-64 bg-gradient-to-bl from-amber-200/25 to-transparent"></div>
+            <div class="absolute bottom-0 right-0 h-40 w-40 bg-gradient-to-tl from-black/5 to-transparent"></div>
+
+            <div class="relative z-10 max-w-2xl" data-reveal="slide-left">
+                <p class="text-xs font-bold uppercase tracking-[0.24em] text-gray-600">
+                    Tentang Kami
+                </p>
+
+                <h2 class="mt-4 text-3xl font-black uppercase leading-tight text-black sm:text-4xl lg:text-5xl">
+                    Membangun
+                    <span class="block text-black">Karakter Elite</span>
+                </h2>
+
+                <div class="mt-6 h-1 w-16 bg-black"></div>
+
+                <div class="mt-8 space-y-5 text-sm leading-7 text-gray-700 sm:text-base sm:leading-8">
+                    <p>
+                        <strong class="font-semibold text-black">KINGBLACK</strong> bukan sekadar tempat bimbingan belajar.
+                        Kami adalah pusat pelatihan yang membantu calon peserta seleksi TNI/POLRI membangun kesiapan
+                        jasmani, mental, dan akademik secara terarah.
+                    </p>
+
+                    <p>
+                        Melalui program yang terstruktur, disiplin latihan yang kuat, dan pendampingan yang konsisten,
+                        kami membantu peserta mempersiapkan diri dengan lebih percaya diri.
+                    </p>
+                </div>
+
+                <blockquote class="mt-8 border-l-4 border-black bg-white/70 px-6 py-5 text-sm font-medium leading-7 text-gray-900 backdrop-blur-sm sm:text-base" data-reveal="zoom-in" data-reveal-delay="180">
+                    <span class="block text-4xl font-black leading-none text-black">“</span>
+                    Disiplin adalah jembatan antara target dan hasil. Di KINGBLACK, kami membantu kamu
+                    melewati jembatan itu dengan persiapan yang nyata.
+                </blockquote>
+            </div>
+        </div>
+
+    </div>
+</section>
+        <section id="faq" class="home-section bg-slate-50 py-20 lg:py-24">
+    <div class="mx-auto max-w-4xl px-6 lg:px-8">
+        <header class="text-center" data-reveal="slide-up">
+            <p class="text-sm font-bold uppercase tracking-[0.18em] text-amber-700">FAQ</p>
+            <h2 class="mt-3 text-3xl font-black tracking-tight text-slate-950 sm:text-5xl">pertanyaan umum</h2>
+            <p class="mx-auto mt-4 max-w-2xl text-base leading-7 text-slate-600">
+                jawaban untuk pertanyaan yang sering diajukan sebelum bergabung dengan KINGBLACK.
+            </p>
+        </header>
+
+        <div class="mt-10 space-y-4">
+            <details class="group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm" data-reveal="slide-up" data-reveal-delay="80">
+                <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-left text-base font-bold text-slate-950">
+                    apa saja syarat untuk bergabung dengan KINGBLACK?
+                    <span class="text-xl leading-none text-amber-700 transition group-open:rotate-45">+</span>
+                </summary>
+                <p class="mt-4 text-sm leading-7 text-slate-600">
+                    peserta cukup menghubungi admin melalui WhatsApp, memilih program, lalu mengikuti arahan pendaftaran yang diberikan.
+                </p>
+            </details>
+
+            <details class="group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm" data-reveal="slide-up" data-reveal-delay="160">
+                <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-left text-base font-bold text-slate-950">
+                    berapa lama durasi program bimbingan?
+                    <span class="text-xl leading-none text-amber-700 transition group-open:rotate-45">+</span>
+                </summary>
+                <p class="mt-4 text-sm leading-7 text-slate-600">
+                    durasi program menyesuaikan jenis program yang dipilih dan kebutuhan persiapan peserta.
+                </p>
+            </details>
+
+            <details class="group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm" data-reveal="slide-up" data-reveal-delay="240">
+                <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-left text-base font-bold text-slate-950">
+                    apakah ada jaminan kelulusan?
+                    <span class="text-xl leading-none text-amber-700 transition group-open:rotate-45">+</span>
+                </summary>
+                <p class="mt-4 text-sm leading-7 text-slate-600">
+                    KINGBLACK fokus memberikan pendampingan dan latihan terbaik. hasil akhir tetap bergantung pada proses, usaha, dan performa peserta saat seleksi.
+                </p>
+            </details>
+
+            <details class="group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm" data-reveal="slide-up" data-reveal-delay="320">
+                <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-left text-base font-bold text-slate-950">
+                    di mana lokasi latihan dilakukan?
+                    <span class="text-xl leading-none text-amber-700 transition group-open:rotate-45">+</span>
+                </summary>
+                <p class="mt-4 text-sm leading-7 text-slate-600">
+                    lokasi latihan akan diinformasikan langsung oleh admin saat proses konsultasi dan pendaftaran.
+                </p>
+            </details>
+
+            <details class="group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm" data-reveal="slide-up" data-reveal-delay="400">
+                <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-left text-base font-bold text-slate-950">
+                    bagaimana cara melakukan pendaftaran?
+                    <span class="text-xl leading-none text-amber-700 transition group-open:rotate-45">+</span>
+                </summary>
+                <p class="mt-4 text-sm leading-7 text-slate-600">
+                    klik tombol WhatsApp di website, lalu konsultasikan program yang ingin kamu ambil dengan admin.
+                </p>
+            </details>
+        </div>
+    </div>
+</section>
+        <section id="cta" class="cta-section relative isolate overflow-hidden bg-white py-20 lg:py-24">
+    <!-- Soft White Gold Background -->
+    <div class="absolute inset-0 z-0 bg-[linear-gradient(135deg,#ffffff_0%,#ffffff_58%,#faf8f2_82%,#f5ecd7_100%)]"></div>
+    <div class="absolute right-0 top-0 z-0 h-[420px] w-[520px] bg-amber-300/12 blur-3xl"></div>
+    <div class="absolute bottom-0 left-0 z-0 h-[280px] w-[420px] bg-yellow-200/20 blur-3xl"></div>
+    <div class="absolute right-[35%] top-1/2 z-0 h-[180px] w-[180px] -translate-y-1/2 rounded-full bg-amber-200/10 blur-2xl"></div>
+
+    <!-- Background Image Right -->
+    <div
+        class="absolute inset-y-0 right-0 z-0 hidden w-[48%] bg-cover bg-center bg-no-repeat grayscale lg:block"
+        style="
+            background-image: url('https://kingblack.test/images/group.jpg');
+            clip-path: polygon(14% 0, 100% 0, 100% 100%, 0 100%);
+        "
+    ></div>
+
+    <!-- Image Overlay -->
+    <div
+        class="absolute inset-y-0 right-0 z-0 hidden w-[48%] lg:block"
+        style="
+            clip-path: polygon(14% 0, 100% 0, 100% 100%, 0 100%);
+            background: linear-gradient(90deg, rgba(255,255,255,0.96) 0%, rgba(255,255,255,0.76) 36%, rgba(255,255,255,0.38) 100%);
+        "
+    ></div>
+
+    <!-- Mobile Background Image -->
+    <div
+        class="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-10 grayscale lg:hidden"
+        style="background-image: url('https://kingblack.test/images/solo.jpg');"
+    ></div>
+
+    <!-- Subtle Diagonal Separator -->
+    <div
+        class="absolute inset-y-0 left-[54%] z-10 hidden w-px rotate-[8deg] bg-gradient-to-b from-transparent via-black/15 to-transparent lg:block"
+    ></div>
+
+    <div class="relative z-20 mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="max-w-2xl">
+
+            <!-- Brand -->
+            <div class="flex items-center gap-3" data-reveal="fade-in">
+                <img src="https://kingblack.test/images/logos.png" alt="Logo Kingblack" class="h-8 w-8 object-contain">
+                <p class="text-sm font-black uppercase tracking-[0.35em] text-black">
+                    Konsultasi Program
+                </p>
+            </div>
+
+            <h2 class="mt-8 max-w-3xl text-4xl font-black uppercase leading-tight tracking-tight text-black sm:text-5xl lg:text-6xl" data-reveal="slide-up" data-reveal-delay="100">
+                Mulai Konsultasi
+                <span class="block text-black">
+                    Persiapan Seleksi Kamu
+                </span>
+            </h2>
+
+            <p class="mt-6 max-w-xl text-base leading-8 text-gray-700 sm:text-lg" data-reveal="slide-up" data-reveal-delay="180">
+                Diskusikan target seleksi, pilihan program, dan langkah persiapan awal bersama tim KINGBLACK.
+            </p>
+
+            <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center" data-reveal="slide-up" data-reveal-delay="260">
+                <a
+                    href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20konsultasi%20program%20KINGBLACK"
+                    class="group inline-flex w-full items-center justify-center gap-3 rounded-md bg-black px-6 py-4 text-sm font-black uppercase tracking-wide text-white shadow-lg shadow-black/20 transition hover:-translate-y-0.5 hover:bg-gray-800 hover:shadow-black/30 sm:w-auto"
+                >
+                    <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347M12.051 2C6.477 2 1.95 6.477 1.95 12.001c0 1.762.463 3.486 1.34 5.005L2 22l5.121-1.266a10.14 10.14 0 004.93 1.256h.001c5.574 0 10.101-4.477 10.101-10S17.625 2 12.051 2z"/>
+                    </svg>
+                    Konsultasi via WhatsApp
+                    <span class="transition group-hover:translate-x-1">&rarr;</span>
+                </a>
+
+                <a
+                    href="#program"
+                    class="inline-flex w-full items-center justify-center rounded-md border border-black/15 bg-white/70 px-6 py-4 text-sm font-black uppercase tracking-wide text-black transition hover:-translate-y-0.5 hover:bg-white sm:w-auto"
+                >
+                    Lihat Program Dulu
+                </a>
+            </div>
+
+            <div class="mt-6 flex flex-col gap-3 text-sm text-gray-700 sm:flex-row sm:flex-wrap sm:items-center" data-reveal="fade-in" data-reveal-delay="360">
+                <div class="flex items-center gap-2">
+                    <svg class="h-5 w-5 text-black" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        <path d="M9 12l2 2 4-4"></path>
+                    </svg>
+                    <span>Gratis konsultasi</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <svg class="h-5 w-5 text-black" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M20 6L9 17l-5-5"></path>
+                    </svg>
+                    <span>Rekomendasi program sesuai target</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <svg class="h-5 w-5 text-black" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M22 2L11 13"></path>
+                        <path d="M22 2l-7 20-4-9-9-4 20-7z"></path>
+                    </svg>
+                    <span>Langsung via WhatsApp</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+
+    <footer class="w-full border-t border-gray-200 bg-black/100" data-reveal="fade-in">
+    <div class="mx-auto flex max-w-7xl flex-col items-center space-y-8 px-6 py-8 text-center lg:px-8">
+        <a
+            href="https://kingblack.test"
+            class="text-3xl font-black tracking-tight text-white sm:text-4xl"
+            aria-label="KINGBLACK home"
+        >
+            KINGBLACK
+        </a>
+
+        <nav class="flex flex-wrap justify-center gap-x-8 gap-y-4" aria-label="Footer navigation">
+            <a href="#program" class="text-sm font-medium text-yellow-500/60 underline transition hover:text-yellow-500">
+                Program Executive
+            </a>
+            <a href="#problem" class="text-sm font-medium text-yellow-500/60 underline transition hover:text-yellow-500">
+                Mengapa Kingblack
+            </a>
+            <a href="#facilities" class="text-sm font-medium text-yellow-500/60 underline transition hover:text-yellow-500">
+                Fasilitas
+            </a>
+            <a href="#faq" class="text-sm font-medium text-yellow-500/60 underline transition hover:text-yellow-500">
+                Bantuan
+            </a>
+        </nav>
+
+        <div class="flex items-center gap-6 pt-4">
+            <a
+                href="#"
+                class="text-gray-600 transition hover:scale-110 hover:text-black"
+                aria-label="Instagram KINGBLACK"
+            >
+                <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path>
+                </svg>
+            </a>
+
+            <a
+                href="#"
+                class="text-gray-600 transition hover:scale-110 hover:text-black"
+                aria-label="TikTok KINGBLACK"
+            >
+                <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M19.59 6.69a4.823 4.823 0 0 1-3.83-1.641V10.5c0 2.83-2.3 5.13-5.13 5.13s-5.13-2.3-5.13-5.13c0-2.83 2.3-5.13 5.13-5.13.16 0 .31.01.47.02V7.93a2.64 2.64 0 0 0-.47-.04c-1.45 0-2.63 1.18-2.63 2.63s1.18 2.63 2.63 2.63 2.63-1.18 2.63-2.63V0h2.5c0 1.61 1.31 2.92 2.92 2.92v3.77z"></path>
+                </svg>
+            </a>
+        </div>
+
+        <p class="text-sm text-gray-600">
+            &copy; 2026 KINGBLACK Training Center. All rights reserved.
+        </p>
+    </div>
+</footer>
+    </body>
+</html>
