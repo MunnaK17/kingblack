@@ -11,27 +11,27 @@
         <div class="mt-10 space-y-4">
             <details class="group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm" data-reveal="slide-up" data-reveal-delay="80">
                 <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-left text-base font-bold text-slate-950">
-                    apa saja syarat untuk bergabung dengan KINGBLACK?
+                    Apa saja syarat untuk bergabung dengan KINGBLACK?
                     <span class="text-xl leading-none text-amber-700 transition group-open:rotate-45">+</span>
                 </summary>
                 <p class="mt-4 text-sm leading-7 text-slate-600">
-                    peserta cukup menghubungi admin melalui WhatsApp, memilih program, lalu mengikuti arahan pendaftaran yang diberikan.
+                    Peserta cukup menghubungi admin melalui WhatsApp, memilih program, lalu mengikuti arahan pendaftaran yang diberikan.
                 </p>
             </details>
 
             <details class="group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm" data-reveal="slide-up" data-reveal-delay="160">
                 <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-left text-base font-bold text-slate-950">
-                    berapa lama durasi program bimbingan?
+                    Berapa lama durasi program bimbingan?
                     <span class="text-xl leading-none text-amber-700 transition group-open:rotate-45">+</span>
                 </summary>
                 <p class="mt-4 text-sm leading-7 text-slate-600">
-                    durasi program menyesuaikan jenis program yang dipilih dan kebutuhan persiapan peserta.
+                    Durasi program menyesuaikan jenis program yang dipilih dan kebutuhan persiapan peserta.
                 </p>
             </details>
 
             <details class="group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm" data-reveal="slide-up" data-reveal-delay="240">
                 <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-left text-base font-bold text-slate-950">
-                    apakah ada jaminan kelulusan?
+                    Apakah ada jaminan kelulusan?
                     <span class="text-xl leading-none text-amber-700 transition group-open:rotate-45">+</span>
                 </summary>
                 <p class="mt-4 text-sm leading-7 text-slate-600">
@@ -41,17 +41,17 @@
 
             <details class="group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm" data-reveal="slide-up" data-reveal-delay="320">
                 <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-left text-base font-bold text-slate-950">
-                    di mana lokasi latihan dilakukan?
+                    Di mana lokasi latihan dilakukan?
                     <span class="text-xl leading-none text-amber-700 transition group-open:rotate-45">+</span>
                 </summary>
                 <p class="mt-4 text-sm leading-7 text-slate-600">
-                    lokasi latihan akan diinformasikan langsung oleh admin saat proses konsultasi dan pendaftaran.
+                    Lokasi latihan akan diinformasikan langsung oleh admin saat proses konsultasi dan pendaftaran.
                 </p>
             </details>
 
             <details class="group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm" data-reveal="slide-up" data-reveal-delay="400">
                 <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-left text-base font-bold text-slate-950">
-                    bagaimana cara melakukan pendaftaran?
+                    Bagaimana cara melakukan pendaftaran?
                     <span class="text-xl leading-none text-amber-700 transition group-open:rotate-45">+</span>
                 </summary>
                 <p class="mt-4 text-sm leading-7 text-slate-600">

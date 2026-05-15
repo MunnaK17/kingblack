@@ -1,18 +1,18 @@
 @php
     $facilities = [
         [
-            'title' => 'Area Latihan Fisik',
+            'title' => 'Area Latihan Lari dan Fisik',
             'description' => 'Fasilitas latihan untuk menunjang persiapan jasmani seperti lari, push-up, sit-up, pull-up, dan latihan ketahanan tubuh.',
             'image' => 'images//madya.jpg',
         ],
         [
-            'title' => 'Ruang Pembelajaran',
-            'description' => 'Ruang belajar yang nyaman untuk pendalaman materi akademik, pembahasan soal, dan sesi evaluasi peserta.',
+            'title' => 'Area GYM',
+            'description' => 'Fasilitas GYM dengan peralatan lengkap untuk latihan kekuatan otot, kebugaran, dan persiapan fisik yang optimal bagi peserta.',
             'image' => 'images/gym.jpg',
         ],
         [
-            'title' => 'Simulasi Tes',
-            'description' => 'Fasilitas pendukung untuk simulasi psikotest, tryout akademik, dan evaluasi kesiapan peserta sebelum seleksi.',
+            'title' => 'Stadion Akuatik',
+            'description' => 'Fasilitas kolam renang untuk latihan renang yang mendukung persiapan fisik dan ketahanan tubuh peserta dalam menghadapi tantangan seleksi.',
             'image' => 'images/renang.jpg',
         ],
     ];

@@ -9,6 +9,7 @@
         <x-home.program />
         <x-home.facilities />
         <x-home.about />
+        @include('components.form-pendaftaran')
         <x-home.faq />
         <x-home.cta />
     </main>

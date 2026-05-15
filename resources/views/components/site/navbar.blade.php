@@ -45,7 +45,7 @@
                 href="{{ \App\Support\Whatsapp::url('hero') }}"
                 class="hidden shrink-0 items-center justify-center rounded-lg bg-gray-950 px-6 py-3 text-sm font-bold text-white transition hover:bg-gray-800 lg:inline-flex"
             >
-                daftar sekarang
+                Daftar Sekarang
             </a>
 
             {{-- Mobile Menu --}}
@@ -82,7 +82,7 @@
                         href="{{ \App\Support\Whatsapp::url('hero') }}"
                         class="mt-2 flex w-full items-center justify-center rounded-md bg-gray-950 px-4 py-3 text-sm font-bold text-white transition hover:bg-gray-800"
                     >
-                        daftar sekarang
+                        Daftar Sekarang
                     </a>
                 </div>
             </details>
