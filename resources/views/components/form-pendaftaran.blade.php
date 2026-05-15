@@ -1,25 +1,35 @@
-<section id="pendaftaran" class="relative isolate overflow-hidden bg-black py-12 text-white sm:py-16 lg:py-20">
-    <div class="absolute inset-0 -z-10 bg-[linear-gradient(135deg,#000000_0%,#111111_52%,#000000_100%)]"></div>
+<section id="pendaftaran" class="relative isolate overflow-hidden bg-black py-14 text-white sm:py-18 lg:py-24">
+    <div class="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_18%_20%,rgba(255,255,255,0.12),transparent_28%),linear-gradient(135deg,#000000_0%,#111111_52%,#000000_100%)]"></div>
     <div class="absolute inset-x-0 top-0 -z-10 h-px bg-gradient-to-r from-transparent via-white/30 to-transparent"></div>
 
     <div class="mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 items-center gap-10 lg:grid-cols-[0.92fr_1.08fr] lg:gap-16">
+        <div class="grid grid-cols-1 items-center gap-10 lg:grid-cols-[0.88fr_1.12fr] lg:gap-16">
             <div class="flex flex-col gap-5 sm:gap-6">
-                <div class="flex items-center gap-4">
-                    <span class="text-[0.68rem] font-black uppercase tracking-[0.3em] text-white/70 sm:text-xs">
-                        Prestige &amp; Performance
-                    </span>
-                </div>
 
                 <h2 class="max-w-2xl text-3xl font-black uppercase leading-[0.98] tracking-tight text-white sm:text-5xl lg:text-6xl">
-                    Mulai Pendaftaran KINGBLACK
+                    Amankan Slot Persiapan Kamu
                 </h2>
 
                 <p class="max-w-xl text-sm leading-7 text-white/68 sm:text-base sm:leading-8">
-                    Isi data singkat untuk memilih target seleksi dan paket persiapan kamu. Langkah pertama menuju karir elit dimulai di sini.
+                    Isi data singkat agar tim KINGBLACK bisa membaca target seleksi, paket yang kamu butuhkan, dan menghubungi kamu dengan rekomendasi awal yang lebih tepat.
                 </p>
 
-                <div class="mt-4 grid gap-4 sm:grid-cols-2 lg:mt-8 lg:grid-cols-1">
+                <div class="mt-3 grid grid-cols-3 overflow-hidden rounded-2xl border border-white/10 bg-white/[0.04] text-center backdrop-blur-sm">
+                    <div class="border-r border-white/10 p-4">
+                        <span class="block text-2xl font-black text-white">01</span>
+                        <span class="mt-1 block text-[0.62rem] font-bold uppercase tracking-[0.18em] text-white/50">Data</span>
+                    </div>
+                    <div class="border-r border-white/10 p-4">
+                        <span class="block text-2xl font-black text-white">02</span>
+                        <span class="mt-1 block text-[0.62rem] font-bold uppercase tracking-[0.18em] text-white/50">Target</span>
+                    </div>
+                    <div class="p-4">
+                        <span class="block text-2xl font-black text-white">03</span>
+                        <span class="mt-1 block text-[0.62rem] font-bold uppercase tracking-[0.18em] text-white/50">Follow Up</span>
+                    </div>
+                </div>
+
+                <div class="mt-4 grid gap-4 sm:grid-cols-2 lg:mt-6 lg:grid-cols-1">
                     <div class="flex items-start gap-4 rounded-2xl border border-white/10 bg-white/[0.03] p-4 sm:p-5">
                         <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-white/15 bg-white text-black">
                             <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true">
@@ -27,8 +37,8 @@
                             </svg>
                         </div>
                         <div>
-                            <h3 class="text-sm font-black uppercase tracking-wide text-white sm:text-base">Kurikulum Terarah</h3>
-                            <p class="mt-1 text-sm leading-6 text-white/62">Materi standar seleksi dengan pendampingan instruktur berpengalaman.</p>
+                            <h3 class="text-sm font-black uppercase tracking-wide text-white sm:text-base">Rekomendasi Terarah</h3>
+                            <p class="mt-1 text-sm leading-6 text-white/62">Data kamu membantu tim memilih arahan program sesuai target seleksi.</p>
                         </div>
                     </div>
 
@@ -40,16 +50,27 @@
                             </svg>
                         </div>
                         <div>
-                            <h3 class="text-sm font-black uppercase tracking-wide text-white sm:text-base">Fokus Persiapan</h3>
-                            <p class="mt-1 text-sm leading-6 text-white/62">Pilih target dan paket sesuai kebutuhan latihan kamu.</p>
+                            <h3 class="text-sm font-black uppercase tracking-wide text-white sm:text-base">Tanpa Akun Admin</h3>
+                            <p class="mt-1 text-sm leading-6 text-white/62">Cukup submit form, data langsung masuk sistem pendaftaran KINGBLACK.</p>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="relative">
-                <div class="absolute -inset-1 rounded-3xl bg-white/10 blur-3xl"></div>
-                <div class="relative rounded-3xl border border-zinc-200 bg-white p-5 text-black shadow-2xl shadow-black/60 sm:p-8 lg:p-10">
+                <div class="absolute -inset-1 rounded-[2rem] bg-white/14 blur-3xl"></div>
+                <div class="relative overflow-hidden rounded-[2rem] border border-zinc-200 bg-white text-black shadow-2xl shadow-black/60">
+                    <div class="border-b border-zinc-200 bg-[linear-gradient(135deg,#ffffff_0%,#f4f4f5_100%)] px-5 py-5 sm:px-8 lg:px-10">
+                        <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+                            <div>
+                                <p class="text-[0.68rem] font-black uppercase tracking-[0.24em] text-zinc-500">Form Pendaftaran</p>
+                                <h3 class="mt-2 text-2xl font-black uppercase tracking-tight text-black sm:text-3xl">Data Calon Siswa</h3>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="p-5 sm:p-8 lg:p-10">
                     <div
                         data-registration-alert
                         class="{{ session('success') ? '' : 'hidden' }} mb-6 rounded-xl border border-[#b88718] bg-[#d4af37] px-4 py-3 text-sm font-black text-black shadow-lg shadow-black/10"
@@ -73,7 +94,7 @@
                                 value="{{ old('nama') }}"
                                 autocomplete="name"
                                 placeholder="Masukkan nama sesuai KTP"
-                                class="w-full rounded-xl border border-zinc-200 bg-zinc-100 px-4 py-4 text-sm text-zinc-950 outline-none transition focus:border-black focus:bg-white focus:ring-1 focus:ring-black"
+                                class="w-full rounded-xl border border-zinc-200 bg-zinc-100 px-4 py-4 text-sm text-zinc-950 outline-none transition hover:border-zinc-300 focus:border-black focus:bg-white focus:ring-2 focus:ring-black/10"
                                 required
                             >
                             @error('nama')
@@ -91,7 +112,7 @@
                                     value="{{ old('nomor_hp') }}"
                                     autocomplete="tel"
                                     placeholder="0812xxxx"
-                                    class="w-full rounded-xl border border-zinc-200 bg-zinc-100 px-4 py-4 text-sm text-zinc-950 outline-none transition focus:border-black focus:bg-white focus:ring-1 focus:ring-black"
+                                    class="w-full rounded-xl border border-zinc-200 bg-zinc-100 px-4 py-4 text-sm text-zinc-950 outline-none transition hover:border-zinc-300 focus:border-black focus:bg-white focus:ring-2 focus:ring-black/10"
                                     required
                                 >
                                 @error('nomor_hp')
@@ -108,7 +129,7 @@
                                 value="{{ old('email') }}"
                                     autocomplete="email"
                                     placeholder="email@example.com"
-                                    class="w-full rounded-xl border border-zinc-200 bg-zinc-100 px-4 py-4 text-sm text-zinc-950 outline-none transition focus:border-black focus:bg-white focus:ring-1 focus:ring-black"
+                                    class="w-full rounded-xl border border-zinc-200 bg-zinc-100 px-4 py-4 text-sm text-zinc-950 outline-none transition hover:border-zinc-300 focus:border-black focus:bg-white focus:ring-2 focus:ring-black/10"
                                     required
                                 >
                                 @error('email')
@@ -122,7 +143,7 @@
                             <select
                                 id="ingin_daftar"
                                 name="ingin_daftar"
-                                class="w-full rounded-xl border border-zinc-200 bg-zinc-100 px-4 py-4 text-sm text-zinc-950 outline-none transition focus:border-black focus:bg-white focus:ring-1 focus:ring-black"
+                                class="w-full rounded-xl border border-zinc-200 bg-zinc-100 px-4 py-4 text-sm text-zinc-950 outline-none transition hover:border-zinc-300 focus:border-black focus:bg-white focus:ring-2 focus:ring-black/10"
                                 required
                             >
                                 <option value="">Pilih Program</option>
@@ -143,7 +164,7 @@
                                 <select
                                     id="paket"
                                     name="paket"
-                                    class="w-full rounded-xl border border-zinc-200 bg-zinc-100 px-4 py-4 text-sm text-zinc-950 outline-none transition focus:border-black focus:bg-white focus:ring-1 focus:ring-black"
+                                    class="w-full rounded-xl border border-zinc-200 bg-zinc-100 px-4 py-4 text-sm text-zinc-950 outline-none transition hover:border-zinc-300 focus:border-black focus:bg-white focus:ring-2 focus:ring-black/10"
                                     required
                                 >
                                     <option value="">Pilih Paket Persiapan</option>
@@ -162,7 +183,7 @@
                                 <select
                                     id="sumber"
                                     name="sumber"
-                                    class="w-full rounded-xl border border-zinc-200 bg-zinc-100 px-4 py-4 text-sm text-zinc-950 outline-none transition focus:border-black focus:bg-white focus:ring-1 focus:ring-black"
+                                    class="w-full rounded-xl border border-zinc-200 bg-zinc-100 px-4 py-4 text-sm text-zinc-950 outline-none transition hover:border-zinc-300 focus:border-black focus:bg-white focus:ring-2 focus:ring-black/10"
                                     required
                                 >
                                     <option value="">Sumber Informasi</option>
@@ -183,15 +204,16 @@
 
                         <button
                             type="submit"
-                            class="mt-2 w-full rounded-xl bg-black px-6 py-5 text-sm font-black uppercase tracking-[0.22em] text-white shadow-xl shadow-black/20 transition hover:bg-zinc-800 active:scale-[0.98] focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2"
+                            class="mt-2 w-full rounded-xl bg-black px-6 py-5 text-sm font-black uppercase tracking-[0.22em] text-white shadow-xl shadow-black/20 transition hover:-translate-y-0.5 hover:bg-zinc-800 hover:shadow-2xl active:scale-[0.98] focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2"
                         >
                             <span data-submit-label>Daftar Sekarang</span>
                         </button>
 
                         <p class="text-center text-xs font-semibold leading-5 text-zinc-500">
-                            Dengan mendaftar, data kamu akan dikirim ke sistem pendaftaran KINGBLACK.
+                            Dengan mendaftar, data kamu akan dikirim ke sistem pendaftaran KINGBLACK dan hanya dipakai untuk follow up program.
                         </p>
                     </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -275,4 +297,3 @@
         });
     })();
 </script>
-

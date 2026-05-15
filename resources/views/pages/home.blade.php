@@ -7,10 +7,10 @@
         <x-home.trust-bar />
         <x-home.problem />
         <x-home.program />
+        <x-home.about />
         <x-home.facilities />
         <x-home.coach />
         @include('components.form-pendaftaran')
-        <x-home.about />
         <x-home.faq />
         <x-home.cta />
     </main>

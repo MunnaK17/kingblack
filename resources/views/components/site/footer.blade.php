@@ -25,7 +25,7 @@
 
         <div class="flex items-center gap-6 pt-4">
             <a
-                href="#"
+                href="https://www.instagram.com/kingblack.mrr/"
                 class="text-gray-600 transition hover:scale-110 hover:text-black"
                 aria-label="Instagram KINGBLACK"
             >
@@ -35,7 +35,7 @@
             </a>
 
             <a
-                href="#"
+                href="https://www.tiktok.com/@kingblack_75"
                 class="text-gray-600 transition hover:scale-110 hover:text-black"
                 aria-label="TikTok KINGBLACK"
             >

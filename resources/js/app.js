@@ -69,7 +69,7 @@ const initSiteInteractions = () => {
             welcomePopup.classList.remove('hidden');
             welcomePopup.classList.add('flex');
             document.body.classList.add('overflow-hidden');
-        }, 1800);
+        }, 4000);
     }
 
     welcomePopupClose?.addEventListener('click', closeWelcomePopup);

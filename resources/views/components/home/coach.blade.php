@@ -1,10 +1,11 @@
-<section id="coach" class="overflow-hidden bg-white">
-    <div class="grid w-full lg:grid-cols-[0.46fr_0.54fr]">
+<section id="coach" class="relative isolate overflow-hidden bg-white">
+    <div class="pointer-events-none absolute inset-0 z-0 bg-[radial-gradient(circle_at_78%_20%,rgba(245,158,11,0.13),transparent_30%),linear-gradient(180deg,#ffffff_0%,#fffdf8_100%)]"></div>
+    <div class="relative z-10 grid w-full lg:grid-cols-[0.46fr_0.54fr]">
         <div class="relative min-h-[460px] overflow-hidden bg-black sm:min-h-[560px] lg:min-h-[760px]" data-reveal="slide-right">
             <img
                 src="{{ asset('images/wahyu.png') }}"
                 alt="Coach KINGBLACK saat latihan"
-                class="absolute inset-0 h-full w-full object-cover object-center grayscale transition duration-500"
+                class="absolute inset-0 h-full w-full object-cover object-center transition duration-500"
                 data-coach-image
             >
             <div class="absolute inset-0 bg-gradient-to-t from-black via-black/45 to-black/10"></div>
@@ -55,8 +56,10 @@
             </button>
         </div>
 
-        <div class="flex items-center bg-white px-5 py-12 sm:px-8 sm:py-16 lg:min-h-[760px] lg:px-14 xl:px-20" data-reveal="slide-left">
-            <div class="mx-auto w-full max-w-3xl">
+        <div class="relative flex items-center overflow-hidden bg-white/90 px-5 py-12 sm:px-8 sm:py-16 lg:min-h-[760px] lg:px-14 xl:px-20" data-reveal="slide-left">
+            <div class="pointer-events-none absolute -right-24 -top-24 h-80 w-80 rounded-full bg-amber-200/25 blur-3xl"></div>
+            <div class="pointer-events-none absolute -bottom-24 left-10 h-64 w-64 rounded-full bg-yellow-100/45 blur-3xl"></div>
+            <div class="relative z-10 mx-auto w-full max-w-3xl">
                 <header>
                     <p class="text-xs font-black uppercase tracking-[0.3em] text-zinc-500">
                         Pelatih KINGBLACK
@@ -157,10 +160,10 @@
             {
                 image: '{{ asset('images/ad.png') }}',
                 badge: 'Strength Conditioning',
-                displayName: 'Dimas<br>Pratama',
-                name: 'Coach Dimas Pratama',
+                displayName: 'Bang<br>black',
+                name: 'Coach Bang Black',
                 pill: 'Strength & Conditioning',
-                bio: 'Dummy profile: fokus pada latihan kekuatan, stabilitas tubuh, mobilitas, dan program conditioning agar peserta punya fondasi fisik yang lebih siap.',
+                bio: 'fokus pada latihan kekuatan, stabilitas tubuh, mobilitas, dan program conditioning agar peserta punya fondasi fisik yang lebih siap.',
                 achievement: 'Strength Coach',
                 specialty: 'Power & Mobility',
                 focus: 'Daya Tahan',
@@ -203,9 +206,23 @@
             targets.statThree.textContent = coach.stats[2];
         };
 
+        let autoRotate = window.setInterval(() => {
+            currentIndex = (currentIndex + 1) % coaches.length;
+            setCoach(currentIndex);
+        }, 6000);
+
+        const restartAutoRotate = () => {
+            window.clearInterval(autoRotate);
+            autoRotate = window.setInterval(() => {
+                currentIndex = (currentIndex + 1) % coaches.length;
+                setCoach(currentIndex);
+            }, 6000);
+        };
+
         targets.next?.addEventListener('click', () => {
             currentIndex = (currentIndex + 1) % coaches.length;
             setCoach(currentIndex);
+            restartAutoRotate();
         });
     })();
 </script>

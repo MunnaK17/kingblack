@@ -22,13 +22,22 @@
             <p class="mt-4 text-sm leading-7 text-gray-300 sm:text-base">
                 Program persiapan terlengkap untuk seleksi TNI, POLRI, dan Sekolah Kedinasan.
             </p>
+
+            <div class="mt-6 flex items-center justify-center gap-3 lg:hidden">
+                <button type="button" class="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 bg-white/10 text-white backdrop-blur-sm" data-program-prev aria-label="Program sebelumnya">
+                    <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path d="M19 12H5"></path><path d="m11 18-6-6 6-6"></path></svg>
+                </button>
+                <button type="button" class="flex h-11 w-11 items-center justify-center rounded-full bg-yellow-400 text-black shadow-lg shadow-yellow-500/20" data-program-next aria-label="Program berikutnya">
+                    <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path d="M5 12h14"></path><path d="m13 6 6 6-6 6"></path></svg>
+                </button>
+            </div>
         </div>
 
         <!-- Cards -->
-        <div class="mt-14 grid grid-cols-1 gap-6 lg:grid-cols-4">
+        <div class="mt-10 flex snap-x snap-mandatory gap-4 overflow-x-auto scroll-smooth pb-4 [scrollbar-width:none] sm:gap-5 lg:mt-14 lg:grid lg:grid-cols-4 lg:gap-6 lg:overflow-visible lg:pb-0" data-program-track>
 
             <!-- Executive -->
-            <article class="relative overflow-hidden rounded-3xl border border-yellow-500/60 bg-white/5 p-6 shadow-[0_0_30px_rgba(234,179,8,0.15)] backdrop-blur-sm" data-reveal="zoom-in" data-reveal-delay="80">
+            <article class="relative min-w-[84%] snap-center overflow-hidden rounded-3xl border border-yellow-500/60 bg-white/5 p-6 shadow-[0_0_30px_rgba(234,179,8,0.15)] backdrop-blur-sm sm:min-w-[62%] lg:min-w-0" data-reveal="zoom-in" data-reveal-delay="80">
                 <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,215,120,0.12),transparent_50%)]"></div>
 
                 <div class="relative z-10">
@@ -69,15 +78,15 @@
                         </li>
                     </ul>
 
-                    <a href="{{ \App\Support\Whatsapp::url('executive') }}" class="mt-8 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-yellow-300 via-yellow-500 to-yellow-600 px-4 py-3 text-sm font-black uppercase tracking-wide text-black transition hover:-translate-y-0.5">
-                        Lihat Detail
+                    <a href="#pendaftaran" class="mt-8 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-yellow-300 via-yellow-500 to-yellow-600 px-4 py-3 text-sm font-black uppercase tracking-wide text-black transition hover:-translate-y-0.5">
+                        Daftar
                         <span>→</span>
                     </a>
                 </div>
             </article>
 
             <!-- Jasmani / Fisik -->
-            <article class="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm transition hover:border-yellow-500/40 hover:bg-white/10" data-reveal="zoom-in" data-reveal-delay="180">
+            <article class="min-w-[84%] snap-center rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm transition hover:border-yellow-500/40 hover:bg-white/10 sm:min-w-[62%] lg:min-w-0" data-reveal="zoom-in" data-reveal-delay="180">
                 <div class="flex h-12 w-12 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white">
                     <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
                         <path d="M6 9v6m12-6v6M3 10h3v4H3v-4zm15 0h3v4h-3v-4zM9 8h6v8H9V8z"/>
@@ -98,14 +107,14 @@
                     <li class="flex items-start gap-2"><span class="mt-1 text-yellow-400">✓</span><span>Monitoring Progress</span></li>
                 </ul>
 
-                <a href="{{ \App\Support\Whatsapp::url('jasmani-fisik') }}" class="mt-8 inline-flex w-full items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-black uppercase tracking-wide text-white transition hover:border-yellow-500/40 hover:text-yellow-400">
-                    Lihat Detail
+                <a href="#pendaftaran" class="mt-8 inline-flex w-full items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-black uppercase tracking-wide text-white transition hover:border-yellow-500/40 hover:text-yellow-400">
+                    Daftar
                     <span>→</span>
                 </a>
             </article>
 
             <!-- Akademik -->
-            <article class="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm transition hover:border-yellow-500/40 hover:bg-white/10" data-reveal="zoom-in" data-reveal-delay="280">
+            <article class="min-w-[84%] snap-center rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm transition hover:border-yellow-500/40 hover:bg-white/10 sm:min-w-[62%] lg:min-w-0" data-reveal="zoom-in" data-reveal-delay="280">
                 <div class="flex h-12 w-12 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white">
                     <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
                         <path d="M4 19.5A2.5 2.5 0 016.5 17H20"/>
@@ -127,14 +136,14 @@
                     <li class="flex items-start gap-2"><span class="mt-1 text-yellow-400">✓</span><span>Pembahasan Mendalam</span></li>
                 </ul>
 
-                <a href="{{ \App\Support\Whatsapp::url('akademik') }}" class="mt-8 inline-flex w-full items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-black uppercase tracking-wide text-white transition hover:border-yellow-500/40 hover:text-yellow-400">
-                    Lihat Detail
+                <a href="#pendaftaran" class="mt-8 inline-flex w-full items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-black uppercase tracking-wide text-white transition hover:border-yellow-500/40 hover:text-yellow-400">
+                    Daftar
                     <span>→</span>
                 </a>
             </article>
 
             <!-- Psikotest -->
-            <article class="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm transition hover:border-yellow-500/40 hover:bg-white/10" data-reveal="zoom-in" data-reveal-delay="380">
+            <article class="min-w-[84%] snap-center rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm transition hover:border-yellow-500/40 hover:bg-white/10 sm:min-w-[62%] lg:min-w-0" data-reveal="zoom-in" data-reveal-delay="380">
                 <div class="flex h-12 w-12 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white">
                     <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
                         <path d="M9.5 17a2.5 2.5 0 100-5 3.5 3.5 0 013.5-3.5A3.5 3.5 0 1116.5 12"/>
@@ -157,8 +166,8 @@
                     <li class="flex items-start gap-2"><span class="mt-1 text-yellow-400">✓</span><span>Wawancara</span></li>
                 </ul>
 
-                <a href="{{ \App\Support\Whatsapp::url('psikotest') }}" class="mt-8 inline-flex w-full items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-black uppercase tracking-wide text-white transition hover:border-yellow-500/40 hover:text-yellow-400">
-                    Lihat Detail
+                <a href="#pendaftaran" class="mt-8 inline-flex w-full items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-black uppercase tracking-wide text-white transition hover:border-yellow-500/40 hover:text-yellow-400">
+                    Daftar
                     <span>→</span>
                 </a>
             </article>
@@ -168,3 +177,22 @@
 
     </div>
 </section>
+
+<script>
+    (() => {
+        const track = document.querySelector('[data-program-track]');
+        const next = document.querySelector('[data-program-next]');
+        const prev = document.querySelector('[data-program-prev]');
+
+        if (!track || !next || !prev) return;
+
+        const scrollCard = (direction) => {
+            const card = track.querySelector('article');
+            const amount = card ? card.getBoundingClientRect().width + 16 : track.clientWidth * 0.86;
+            track.scrollBy({ left: amount * direction, behavior: 'smooth' });
+        };
+
+        next.addEventListener('click', () => scrollCard(1));
+        prev.addEventListener('click', () => scrollCard(-1));
+    })();
+</script>

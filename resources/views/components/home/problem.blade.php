@@ -1,5 +1,8 @@
-<section id="problem" class="home-section bg-white py-16 sm:py-20">
-    <div class="mx-auto max-w-6xl px-6 lg:px-10">
+<section id="problem" class="home-section relative isolate overflow-hidden bg-white py-16 sm:py-20">
+    <div class="pointer-events-none absolute inset-0 z-0 bg-[radial-gradient(circle_at_82%_18%,rgba(245,158,11,0.13),transparent_28%),radial-gradient(circle_at_10%_84%,rgba(234,179,8,0.10),transparent_30%),linear-gradient(180deg,#ffffff_0%,#fffdf8_100%)]"></div>
+    <div class="pointer-events-none absolute -right-24 top-10 z-0 h-80 w-80 rounded-full bg-amber-200/20 blur-3xl"></div>
+
+    <div class="relative z-10 mx-auto max-w-6xl px-6 lg:px-10">
         <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
 
             {{-- Kiri: Embed TikTok --}}
