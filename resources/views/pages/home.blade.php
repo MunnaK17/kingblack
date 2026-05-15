@@ -8,8 +8,9 @@
         <x-home.problem />
         <x-home.program />
         <x-home.facilities />
-        <x-home.about />
+        <x-home.coach />
         @include('components.form-pendaftaran')
+        <x-home.about />
         <x-home.faq />
         <x-home.cta />
     </main>

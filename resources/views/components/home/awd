@@ -1,180 +1,123 @@
 <!DOCTYPE html>
 
-<html class="dark" lang="en"><head>
+<html lang="id"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Pelatih Kingblack</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&amp;family=Geist:wght@400;600;700;900&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<style>
-        .material-symbols-outlined {
-            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-        }
-    </style>
-<script id="tailwind-config">
-        tailwind.config = {
-          darkMode: "class",
-          theme: {
-            extend: {
-              "colors": {
-                      "on-background": "#e3e2e2",
-                      "on-secondary": "#470083",
-                      "on-tertiary-fixed": "#3f001b",
-                      "on-tertiary-fixed-variant": "#8f0045",
-                      "surface-container-low": "#1b1c1c",
-                      "surface-variant": "#343535",
-                      "on-error-container": "#ffdad6",
-                      "inverse-surface": "#e3e2e2",
-                      "tertiary-container": "#e60073",
-                      "on-primary-fixed-variant": "#004397",
-                      "on-secondary-fixed": "#2b0052",
-                      "tertiary-fixed": "#ffd9e1",
-                      "primary-fixed": "#d8e2ff",
-                      "on-primary": "#002e6b",
-                      "primary-container": "#0070f3",
-                      "on-primary-fixed": "#001a43",
-                      "surface": "#121414",
-                      "surface-container-highest": "#343535",
-                      "inverse-primary": "#0059c5",
-                      "on-tertiary": "#65002f",
-                      "primary-fixed-dim": "#aec6ff",
-                      "surface-bright": "#383939",
-                      "inverse-on-surface": "#303031",
-                      "surface-dim": "#121414",
-                      "on-primary-container": "#ffffff",
-                      "surface-tint": "#aec6ff",
-                      "error-container": "#93000a",
-                      "background": "#121414",
-                      "error": "#ffb4ab",
-                      "on-secondary-container": "#d0a6ff",
-                      "outline-variant": "#414754",
-                      "surface-container-lowest": "#0d0e0f",
-                      "surface-container": "#1f2020",
-                      "tertiary": "#ffb1c5",
-                      "surface-container-high": "#292a2a",
-                      "on-error": "#690005",
-                      "secondary-container": "#6807ba",
-                      "on-surface": "#e3e2e2",
-                      "on-surface-variant": "#c1c6d7",
-                      "primary": "#aec6ff",
-                      "on-tertiary-container": "#ffffff",
-                      "outline": "#8b90a0",
-                      "secondary-fixed": "#efdbff",
-                      "secondary-fixed-dim": "#dbb8ff",
-                      "secondary": "#dbb8ff",
-                      "on-secondary-fixed-variant": "#6600b7",
-                      "tertiary-fixed-dim": "#ffb1c5"
-              },
-              "borderRadius": {
-                      "DEFAULT": "0.125rem",
-                      "lg": "0.25rem",
-                      "xl": "0.5rem",
-                      "full": "0.75rem"
-              },
-              "spacing": {
-                      "unit": "4px",
-                      "margin-desktop": "48px",
-                      "margin-mobile": "20px",
-                      "gutter-desktop": "24px",
-                      "gutter-mobile": "16px",
-                      "container-max": "1440px"
-              },
-              "fontFamily": {
-                      "body-sm": ["Geist"],
-                      "headline-lg": ["Geist"],
-                      "headline-xl": ["Geist"],
-                      "label-xs": ["JetBrains Mono"],
-                      "headline-lg-mobile": ["Geist"],
-                      "label-md": ["JetBrains Mono"],
-                      "body-md": ["Geist"]
-              },
-              "fontSize": {
-                      "body-sm": ["14px", {"lineHeight": "20px", "letterSpacing": "0em", "fontWeight": "400"}],
-                      "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "600"}],
-                      "headline-xl": ["60px", {"lineHeight": "72px", "letterSpacing": "-0.04em", "fontWeight": "700"}],
-                      "label-xs": ["11px", {"lineHeight": "12px", "letterSpacing": "0.05em", "fontWeight": "500"}],
-                      "headline-lg-mobile": ["24px", {"lineHeight": "32px", "letterSpacing": "-0.02em", "fontWeight": "600"}],
-                      "label-md": ["14px", {"lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "500"}],
-                      "body-md": ["16px", {"lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "400"}]
-              }
-            },
-          },
-        }
-    </script>
+<script id="tailwind-config">tailwind.config = {darkMode: "class", theme: {extend: {colors: {"surface-variant": "#e9e2cf", "inverse-primary": "#e9c400", "inverse-on-surface": "#f8f0dd", "surface-bright": "#fff9ed", surface: "#fff9ed", "on-error-container": "#93000a", "error-container": "#ffdad6", "outline-variant": "#d0c6ab", "surface-container-high": "#efe8d4", "inverse-surface": "#343023", "tertiary-fixed-dim": "#00dbe8", "primary-fixed": "#ffe16e", "surface-container": "#f5edda", "on-tertiary-fixed": "#002022", primary: "#705d00", "on-background": "#1e1c10", "secondary-fixed": "#f9e291", "surface-tint": "#705d00", "surface-dim": "#e1dac7", "secondary-fixed-dim": "#dcc678", "on-primary-fixed-variant": "#544600", secondary: "#6e5d1a", tertiary: "#00696f", "surface-container-low": "#fbf3df", "secondary-container": "#f9e291", "on-secondary-fixed-variant": "#544602", background: "#fff9ed", "on-surface": "#1e1c10", "surface-container-highest": "#e9e2cf", "on-tertiary-fixed-variant": "#004f54", "on-secondary": "#ffffff", error: "#ba1a1a", "surface-container-lowest": "#ffffff", "on-primary-fixed": "#221b00", "on-primary": "#ffffff", "primary-fixed-dim": "#e9c400", outline: "#7e775f", "on-error": "#ffffff", "primary-container": "#ffd709", "on-tertiary": "#ffffff", "on-primary-container": "#705e00", "on-surface-variant": "#4d4632", "on-tertiary-container": "#006a70", "on-secondary-fixed": "#221b00", "tertiary-container": "#00f1ff", "on-secondary-container": "#746320", "tertiary-fixed": "#79f5ff"}, borderRadius: {DEFAULT: "0.25rem", lg: "0.5rem", xl: "0.75rem", full: "9999px"}, spacing: {margin: "24px", md: "16px", lg: "24px", sm: "8px", gutter: "16px", xs: "4px", xl: "32px", base: "8px", "stack-lg": "32px", "stack-sm": "8px", "section-padding": "120px", "container-max": "1280px"}, fontFamily: {"body-lg": ["Inter"], "body-md": ["Inter"], "label-md": ["Inter"], "headline-md": ["Inter"], "headline-lg": ["Inter"], headline: ["Inter"], display: ["Inter"], body: ["Inter"], label: ["Inter"]}, fontSize: {"body-lg": ["16px", {lineHeight: "24px", fontWeight: "400"}], "body-md": ["14px", {lineHeight: "20px", fontWeight: "400"}], "label-md": ["12px", {lineHeight: "16px", letterSpacing: "0.05em", fontWeight: "500"}], "headline-md": ["24px", {lineHeight: "32px", fontWeight: "600"}], "headline-lg": ["32px", {lineHeight: "40px", letterSpacing: "-0.02em", fontWeight: "700"}]}}}};</script>
 </head>
-<body class="bg-background text-on-background font-body-md antialiased selection:bg-primary selection:text-on-primary">
-<main class="min-h-screen flex flex-col items-center justify-center p-gutter-desktop">
-<section class="max-w-container-max w-full mx-auto space-y-24">
-<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter-desktop items-center">
-<div class="md:col-span-7 space-y-8">
-<span class="inline-block px-3 py-1 bg-surface-container-high border border-outline-variant rounded text-primary font-label-xs tracking-wider uppercase">High Performance Training</span>
-<h1 class="font-headline-xl text-headline-xl text-on-surface">Architect Your <span class="text-primary">Performance</span>.</h1>
-<p class="text-on-surface-variant font-body-md max-w-xl leading-relaxed">
-                        KINGBLACK Training Center provides precision-engineered programs for elite performers. Master your craft with high-density technical workflows and mathematical discipline.
-                    </p>
-<div class="flex flex-wrap gap-4">
-<button class="bg-primary text-on-primary px-8 py-4 rounded-lg font-label-md hover:opacity-90 transition-all">Explore Programs</button>
-<button class="border border-outline-variant text-on-surface px-8 py-4 rounded-lg font-label-md hover:bg-surface-container-low transition-all">Documentation</button>
+<body class="bg-background text-on-surface font-body-md antialiased overflow-x-hidden pt-24">
+<!-- Top Navigation -->
+<nav class="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-gutter py-4 bg-surface/90 backdrop-blur-md border-b border-outline-variant/30">
+<div class="flex items-center">
+<a class="font-headline-lg text-headline-md font-extrabold text-[#1978e5] tracking-tight uppercase" href="#">KINGBLACK</a>
+</div>
+<div class="hidden md:flex items-center space-x-8">
+<a class="font-label-md text-label-md text-[#1978e5] border-b-2 border-[#1978e5] pb-1 transition-all duration-300 scale-95 transition-transform uppercase" href="#">Coaches</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-[#1978e5] transition-colors duration-300 uppercase" href="#">Programs</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-[#1978e5] transition-colors duration-300 uppercase" href="#">Elite Membership</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-[#1978e5] transition-colors duration-300 uppercase" href="#">Facilities</a>
+</div>
+<div class="flex items-center space-x-6">
+<div class="hidden md:flex space-x-4">
+<button class="text-on-surface-variant hover:text-[#1978e5] transition-colors">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">person</span>
+</button>
+<button class="text-on-surface-variant hover:text-[#1978e5] transition-colors">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">notifications</span>
+</button>
+</div>
+<a class="font-label-md text-label-md bg-[#1978e5] text-white px-6 py-3 rounded-DEFAULT uppercase tracking-wider font-bold hover:bg-opacity-90 transition-colors shadow-sm" href="#">JOIN THE ELITE</a>
+</div>
+</nav>
+<!-- Main Content Section -->
+<section class="relative w-full overflow-hidden bg-background">
+<!-- Slanted Background overlay -->
+<div class="hidden lg:block absolute top-0 bottom-0 right-0 w-[65%] bg-surface-container z-10 transform -skew-x-12 origin-bottom-right border-l border-outline-variant/20"></div>
+<div class="relative z-20 max-w-[1600px] mx-auto flex flex-col lg:flex-row items-stretch">
+<!-- Left: Image -->
+<div class="w-full lg:w-[45%] relative h-[600px] lg:h-auto min-h-[800px]">
+<div class="absolute inset-0 bg-gradient-to-r from-surface/80 via-transparent to-surface-container/20 z-10"></div>
+<img alt="Coach Portrait" class="absolute inset-0 w-full h-full object-cover filter grayscale object-center" data-alt="A powerful, highly detailed grayscale photograph of an elite athletic coach in a stark, modern training facility. The lighting is dramatic and high-contrast, emphasizing the musculature and intense focus of the subject. The overall aesthetic is dark, masculine, and premium, perfectly aligned with a high-performance athletic brand. Shadows are deep black, with crisp white highlights." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDiJF26Y3-3ZSztGgWCOSCoUXfOJEqhLVkCaKKcw38tPfozW7KAfJzMMn-l4P0JwR7_t1U6MJAqrLUYL0Jc9abfHAPxAVxOrADswxfsERJ4YItrRr4EJmkuDczgM6nnw7zsV0Ef6Z4-xTlKuUCd1nte4heWGOKDTvNQx8jr3pXDKAlLokofEVAqQMtEcbSGQ6a6LCckfs44Qgp5ie0UJxKBdeYb5mxcMcvl7TJJBrHcCjutjLIK2-azFtDtUoGIVo_OvDds_bIZuMQ"/>
+<div class="absolute bottom-12 left-8 md:left-12 z-20">
+<span class="font-label-md text-label-md text-white bg-[#1978e5] px-4 py-2 font-bold tracking-widest uppercase">ELITE SPRINTER</span>
+<h3 class="font-headline-lg text-headline-lg text-on-surface mt-4 uppercase drop-shadow-md">WAHYU<br/>SETIAWAN</h3>
 </div>
 </div>
-<div class="md:col-span-5 aspect-square relative rounded-xl overflow-hidden border border-outline-variant">
-<img class="object-cover w-full h-full opacity-80" data-alt="A macro shot of high-end server hardware with glowing blue LED indicator lights, representing technical precision and advanced infrastructure. The image uses a deep monochromatic black and charcoal palette with sharp metallic textures. Lighting is cinematic and focused, creating a sense of controlled technological power and elite performance, consistent with a modern Geist-inspired aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDm2zXBuWg01qxXD17O44s1w-AzU-OTPpdMCUD2TCNiKxtpMf93zsihdihjXlZP5-kXQ8CeQ5IQ7rp6u3oAzQcwkSs-cOsbzd-3VhMt6nsrZ6t9OJuM_gu2mLOHiPCw-Qy6KozVtIhyUf7PkxKUGfbKvBwJNl7yQTBGKU8pGoabBTdVF-7KxG4ptILMD3BXyfa2gX6qN_QHdkGXqtxjSjBSTh-_squONFMtSQpnx-51fHeH6-j9GOcOH5VdCKmrkHTqe7psa2cGcHg"/>
-<div class="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent"></div>
+<!-- Right: Content -->
+<div class="w-full lg:w-[55%] px-8 lg:px-20 py-24 flex flex-col justify-center relative z-20">
+<div class="mb-16">
+<span class="font-label-md text-label-md text-outline tracking-widest uppercase mb-6 block">PELATIH KINGBLACK</span>
+<h2 class="font-headline-lg text-headline-lg md:text-5xl text-on-surface mb-8 uppercase tracking-tight leading-none font-bold">
+          DILATIH OLEH<br/>
+<span class="text-[#1978e5] block mt-2">COACH BERPENGALAMAN</span>
+</h2>
+<div class="w-24 h-1 bg-[#1978e5] mb-8"></div>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+          Disiplin yang tak kenal ampun bertemu dengan keahlian teknis tingkat elit. Program kami dipandu oleh para juara yang telah membuktikan diri di arena nasional.
+        </p>
+</div>
+<!-- Coach Info -->
+<div class="mb-16 border-l-4 border-[#1978e5] pl-8 py-2 relative">
+<h4 class="font-headline-md text-headline-md text-on-surface mb-4">Coach Wahyu Setiawan</h4>
+<p class="font-body-md text-body-md text-outline mb-8 max-w-xl leading-relaxed">
+          Mantan Sprinter Nasional dengan pengalaman lebih dari satu dekade berkompetisi di tingkat elit. Spesialisasi dalam pengembangan kekuatan eksplosif, mekanika lari tingkat lanjut, dan pengkondisian mental untuk atlet berkinerja tinggi.
+        </p>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+<div>
+<span class="font-label-md text-label-md text-[#1978e5] block mb-2 uppercase">ACHIEVEMENT</span>
+<span class="font-body-lg text-body-lg text-on-surface font-bold">Gold Medalist PON</span>
+</div>
+<div>
+<span class="font-label-md text-label-md text-[#1978e5] block mb-2 uppercase">SPECIALTY</span>
+<span class="font-body-lg text-body-lg text-on-surface font-bold">Sprint &amp; Agility</span>
+</div>
+<div class="col-span-2 md:col-span-1">
+<span class="font-label-md text-label-md text-[#1978e5] block mb-2 uppercase">EXPERIENCE</span>
+<span class="font-body-lg text-body-lg text-on-surface font-bold">12+ Years Elite</span>
 </div>
 </div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter-desktop">
-<div class="p-8 bg-surface-container-lowest border border-outline-variant rounded-xl hover:border-primary transition-colors group">
-<div class="w-12 h-12 bg-primary-container rounded flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-on-primary-container" data-icon="terminal">terminal</span>
 </div>
-<h3 class="font-headline-lg text-headline-lg text-on-surface mb-4">Precision Logic</h3>
-<p class="text-on-surface-variant font-body-sm">Deeply systematic approaches to skill development, focusing on high-density data and measurable outcomes.</p>
+<div class="mb-16">
+<a class="inline-flex items-center justify-center font-label-md text-label-md bg-[#1978e5] text-white px-10 py-5 uppercase font-extrabold tracking-widest hover:bg-opacity-90 transition-all duration-300 shadow-sm transform hover:-translate-y-1 rounded-DEFAULT" href="#">
+          LATIHAN BARENG COACH KINGBLACK
+          <span class="material-symbols-outlined ml-4" style="font-variation-settings: 'FILL' 1;">arrow_forward</span>
+</a>
 </div>
-<div class="p-8 bg-surface-container-lowest border border-outline-variant rounded-xl hover:border-primary transition-colors group">
-<div class="w-12 h-12 bg-secondary-container rounded flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-on-secondary-container" data-icon="speed">speed</span>
+<!-- Secondary Coach -->
+<div>
+<span class="font-label-md text-label-md text-outline mb-6 block tracking-widest uppercase">OTHER ELITE COACHES</span>
+<div class="flex items-center space-x-6 bg-surface-container-low border border-outline-variant/30 p-4 hover:bg-surface-container transition-all cursor-pointer group max-w-lg rounded-DEFAULT">
+<div class="w-24 h-24 overflow-hidden relative rounded-DEFAULT">
+<div class="absolute inset-0 bg-surface/20 z-10 mix-blend-multiply group-hover:opacity-0 transition-opacity"></div>
+<img alt="Secondary Coach" class="w-full h-full object-cover filter grayscale" data-alt="A tightly cropped, high-contrast black and white portrait of a muscular strength and conditioning coach in a dimly lit, raw industrial gym setting. The lighting emphasizes raw texture and intensity. Premium corporate athletic style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2nQyGjBzbQib7aogbEdiJmtIiu8Xt1Kj6E6jf-yZm4HxQfOyAOlJMqiivtw3nugZtY3foKyncrZUGmVlElJfZuuJWZjX3w8VshPqe25OOHtP43b5RRlwauBKsXVTa-QDGu6vqFmBZerOF3s86iWMUH_-esOsHwMgmW8iiytQ5N9yZ3BDATVigdkWncLNz7Ouq-VI9LPwiPzSKLRKYfX4SnfjuAllYrqIpvFRVdnSToOizJvxSRcd2IRZ1AolVDoyIdnxUpJB1L7s"/>
 </div>
-<h3 class="font-headline-lg text-headline-lg text-on-surface mb-4">Execution Speed</h3>
-<p class="text-on-surface-variant font-body-sm">Optimized workflows designed to minimize friction and maximize the efficiency of professional training cycles.</p>
+<div class="flex-1">
+<h5 class="font-headline-md text-headline-md text-on-surface mb-1">Coach Dimas</h5>
+<span class="font-label-md text-label-md text-[#1978e5] uppercase">STRENGTH &amp; CONDITIONING</span>
 </div>
-<div class="p-8 bg-surface-container-lowest border border-outline-variant rounded-xl hover:border-primary transition-colors group">
-<div class="w-12 h-12 bg-tertiary-container rounded flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-on-tertiary-container" data-icon="layers">layers</span>
+<div class="pr-4">
+<span class="material-symbols-outlined text-[#1978e5] opacity-50 group-hover:opacity-100 transition-opacity transform translate-x-[-10px] group-hover:translate-x-0 duration-300 text-3xl">arrow_forward</span>
 </div>
-<h3 class="font-headline-lg text-headline-lg text-on-surface mb-4">Architectural Depth</h3>
-<p class="text-on-surface-variant font-body-sm">Layered curricula built for architectural integrity, ensuring foundational strength and advanced mastery.</p>
+</div>
+</div>
 </div>
 </div>
 </section>
-</main>
-<footer class="w-full bg-surface-dim border-t border-outline-variant">
-<div class="flex flex-col items-center space-y-8 py-16 px-margin-mobile max-w-container-max mx-auto text-center">
-<div class="font-headline-lg text-headline-lg font-black text-on-surface mb-4 tracking-tighter">
-                KINGBLACK
-            </div>
-<nav class="flex flex-wrap justify-center gap-x-8 gap-y-4">
-<a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface underline transition-all" href="#">program executive</a>
-<a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface underline transition-all" href="#">syarat &amp; ketentuan</a>
-<a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface underline transition-all" href="#">kebijakan privasi</a>
-<a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface underline transition-all" href="#">bantuan</a>
-</nav>
-<div class="flex items-center gap-6 pt-4">
-<a class="text-on-surface-variant hover:text-primary transition-all transform hover:scale-110" href="#">
-<svg class="w-6 h-6 fill-current" viewbox="0 0 24 24">
-<path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path>
-</svg>
-</a>
-<a class="text-on-surface-variant hover:text-primary transition-all transform hover:scale-110" href="#">
-<svg class="w-6 h-6 fill-current" viewbox="0 0 24 24">
-<path d="M12.525.02c1.31-.032 2.612.02 3.918.03 0 1.545.02 3.09-.03 4.636-1.01.01-2.024-.03-3.033.02-.383.05-.79.16-1.043.46-.225.26-.264.63-.26 1.01.01 1.09-.004 2.18.005 3.27.001.002.001.005.002.006 1.42 0 2.84-.004 4.26.002-.174 1.43-.32 2.86-.49 4.29-1.257.01-2.514.02-3.77.01-.01 5.344-.01 10.688-.01 16.032-1.842 0-3.684 0-5.526 0 0-5.344 0-10.688-.01-16.032-1.014 0-2.028-.002-3.042.002V9.45c1.01 0 2.02-.004 3.03.003V6.63c-.01-1.344-.02-2.688.01-4.032.05-1.12.35-2.28 1.16-3.1 1.01-1.01 2.45-1.29 3.84-1.48z" transform="scale(0.8) translate(3,3)"></path>
-<path d="M19.59 6.69a4.823 4.823 0 0 1-3.83-1.641V10.5c0 2.83-2.3 5.13-5.13 5.13s-5.13-2.3-5.13-5.13c0-2.83 2.3-5.13 5.13-5.13.16 0 .31.01.47.02V7.93a2.64 2.64 0 0 0-.47-.04c-1.45 0-2.63 1.18-2.63 2.63s1.18 2.63 2.63 2.63 2.63-1.18 2.63-2.63V0h2.5c0 1.61 1.31 2.92 2.92 2.92v3.77z"></path>
-</svg>
-</a>
+<!-- Footer -->
+<footer class="w-full px-gutter py-stack-lg flex flex-col md:flex-row justify-between items-center max-w-container-max mx-auto border-t border-outline-variant/30 bg-surface-container-low mt-12 rounded-t-lg">
+<div class="mb-6 md:mb-0">
+<span class="font-headline-md text-headline-md font-bold text-on-surface uppercase">KINGBLACK</span>
+<p class="font-body-md text-body-md mt-2 text-outline">© 2024 KINGBLACK PERFORMANCE. ENGINEERED FOR DISCIPLINE.</p>
 </div>
-<div class="font-body-sm text-body-sm text-on-surface-variant">
-                © 2026 KINGBLACK Training Center. All rights reserved.
-            </div>
+<div class="flex flex-wrap justify-center md:justify-end gap-6">
+<a class="font-label-md text-label-md text-outline hover:text-[#1978e5] transition-colors duration-200 hover:underline underline-offset-4 uppercase" href="#">Privacy Policy</a>
+<a class="font-label-md text-label-md text-outline hover:text-[#1978e5] transition-colors duration-200 hover:underline underline-offset-4 uppercase" href="#">Terms of Service</a>
+<a class="font-label-md text-label-md text-outline hover:text-[#1978e5] transition-colors duration-200 hover:underline underline-offset-4 uppercase" href="#">Contact Elite Support</a>
+<a class="font-label-md text-label-md text-outline hover:text-[#1978e5] transition-colors duration-200 hover:underline underline-offset-4 uppercase" href="#">Careers</a>
 </div>
 </footer>
 </body></html>

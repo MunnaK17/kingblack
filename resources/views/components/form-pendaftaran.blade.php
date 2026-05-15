@@ -6,7 +6,6 @@
         <div class="grid grid-cols-1 items-center gap-10 lg:grid-cols-[0.92fr_1.08fr] lg:gap-16">
             <div class="flex flex-col gap-5 sm:gap-6">
                 <div class="flex items-center gap-4">
-                    <img src="{{ asset('images/logos.png') }}" alt="Logo Kingblack" class="h-12 w-12 object-contain sm:h-14 sm:w-14">
                     <span class="text-[0.68rem] font-black uppercase tracking-[0.3em] text-white/70 sm:text-xs">
                         Prestige &amp; Performance
                     </span>
@@ -64,9 +63,7 @@
                         </div>
                     @endif
 
-                    <form method="POST" action="{{ route('pendaftaran.store') }}" class="space-y-5 sm:space-y-6" data-registration-form>
-                        @csrf
-
+                    <form method="POST" action="{{ asset('submit.php') }}" class="space-y-5 sm:space-y-6" data-registration-form>
                         <div class="space-y-2">
                             <label for="nama" class="block text-xs font-black uppercase tracking-wide text-zinc-900">Nama lengkap</label>
                             <input
@@ -105,13 +102,14 @@
                             <div class="space-y-2">
                                 <label for="email" class="block text-xs font-black uppercase tracking-wide text-zinc-900">Email</label>
                                 <input
-                                    id="email"
-                                    name="email"
-                                    type="email"
-                                    value="{{ old('email') }}"
+                                id="email"
+                                name="email"
+                                type="email"
+                                value="{{ old('email') }}"
                                     autocomplete="email"
                                     placeholder="email@example.com"
                                     class="w-full rounded-xl border border-zinc-200 bg-zinc-100 px-4 py-4 text-sm text-zinc-950 outline-none transition focus:border-black focus:bg-white focus:ring-1 focus:ring-black"
+                                    required
                                 >
                                 @error('email')
                                     <p class="text-sm font-medium text-red-600">{{ $message }}</p>
@@ -129,12 +127,10 @@
                             >
                                 <option value="">Pilih Program</option>
                                 <option value="tni_ad" @selected(old('ingin_daftar') === 'tni_ad')>TNI AD</option>
-                                <option value="tni_al" @selected(old('ingin_daftar') === 'tni_al')>TNI AL</option>
                                 <option value="tni_au" @selected(old('ingin_daftar') === 'tni_au')>TNI AU</option>
+                                <option value="tni_al" @selected(old('ingin_daftar') === 'tni_al')>TNI AL</option>
                                 <option value="polri" @selected(old('ingin_daftar') === 'polri')>POLRI</option>
-                                <option value="sekolah_kedinasan" @selected(old('ingin_daftar') === 'sekolah_kedinasan')>Sekolah Kedinasan</option>
                                 <option value="cpns" @selected(old('ingin_daftar') === 'cpns')>CPNS</option>
-                                <option value="lainnya" @selected(old('ingin_daftar') === 'lainnya')>Lainnya</option>
                             </select>
                             @error('ingin_daftar')
                                 <p class="text-sm font-medium text-red-600">{{ $message }}</p>
@@ -170,15 +166,14 @@
                                     required
                                 >
                                     <option value="">Sumber Informasi</option>
+                                    <option value="google" @selected(old('sumber') === 'google')>Google</option>
+                                    <option value="brosur" @selected(old('sumber') === 'brosur')>Brosur</option>
                                     <option value="website" @selected(old('sumber') === 'website')>Website</option>
-                                    <option value="tiktok" @selected(old('sumber') === 'tiktok')>TikTok</option>
+                                    <option value="keluarga" @selected(old('sumber') === 'keluarga')>Keluarga</option>
                                     <option value="instagram" @selected(old('sumber') === 'instagram')>Instagram</option>
+                                    <option value="tiktok" @selected(old('sumber') === 'tiktok')>TikTok</option>
                                     <option value="facebook" @selected(old('sumber') === 'facebook')>Facebook</option>
                                     <option value="teman" @selected(old('sumber') === 'teman')>Teman</option>
-                                    <option value="keluarga" @selected(old('sumber') === 'keluarga')>Keluarga</option>
-                                    <option value="brosur" @selected(old('sumber') === 'brosur')>Brosur</option>
-                                    <option value="google" @selected(old('sumber') === 'google')>Google</option>
-                                    <option value="lainnya" @selected(old('sumber') === 'lainnya')>Lainnya</option>
                                 </select>
                                 @error('sumber')
                                     <p class="text-sm font-medium text-red-600">{{ $message }}</p>
@@ -214,8 +209,6 @@
 
         const submitButton = form.querySelector('button[type="submit"]');
         const submitLabel = form.querySelector('[data-submit-label]');
-        const token = form.querySelector('input[name="_token"]')?.value;
-
         const showAlert = (message, type = 'success') => {
             alertBox.textContent = message;
             alertBox.classList.remove('hidden', 'border-[#b88718]', 'bg-[#d4af37]', 'text-black', 'border-red-200', 'bg-red-50', 'text-red-800');
@@ -240,19 +233,28 @@
             submitLabel.textContent = 'Mengirim...';
 
             try {
-                const response = await fetch(form.action, {
+                const response = await fetch('submit.php', {
                     method: 'POST',
                     body: new FormData(form),
                     headers: {
                         'Accept': 'application/json',
                         'X-Requested-With': 'XMLHttpRequest',
-                        ...(token ? { 'X-CSRF-TOKEN': token } : {}),
                     },
                 });
 
-                const data = await response.json();
+                const responseText = await response.text();
+                let data = {};
 
-                if (!response.ok) {
+                try {
+                    data = responseText ? JSON.parse(responseText) : {};
+                } catch (parseError) {
+                    data = {
+                        success: false,
+                        message: responseText || 'Response submit.php bukan JSON valid.',
+                    };
+                }
+
+                if (!response.ok || data.success === false) {
                     const firstError = data.errors
                         ? Object.values(data.errors).flat()[0]
                         : data.message;
@@ -264,7 +266,7 @@
                 form.reset();
                 showAlert(data.message || 'pendaftaran berhasil! data kamu sudah kami terima.');
             } catch (error) {
-                showAlert('pendaftaran belum berhasil diproses. silakan coba lagi.', 'error');
+                showAlert(error.message || 'pendaftaran belum berhasil diproses. silakan coba lagi.', 'error');
             } finally {
                 submitButton.disabled = false;
                 submitButton.classList.remove('cursor-not-allowed', 'opacity-70');
@@ -274,25 +276,3 @@
     })();
 </script>
 
-<section class="border-t border-zinc-200 bg-white py-12 sm:py-16 lg:py-20">
-    <div class="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-2 gap-6 text-center lg:grid-cols-4 lg:gap-12">
-            <div class="rounded-2xl border border-zinc-200 bg-zinc-50 px-4 py-6">
-                <span class="block text-3xl font-black text-black sm:text-4xl lg:text-5xl">92%</span>
-                <span class="mt-2 block text-[0.68rem] font-black uppercase tracking-[0.22em] text-zinc-500 sm:text-xs">Kelulusan</span>
-            </div>
-            <div class="rounded-2xl border border-zinc-200 bg-zinc-50 px-4 py-6">
-                <span class="block text-3xl font-black text-black sm:text-4xl lg:text-5xl">5K+</span>
-                <span class="mt-2 block text-[0.68rem] font-black uppercase tracking-[0.22em] text-zinc-500 sm:text-xs">Alumni</span>
-            </div>
-            <div class="rounded-2xl border border-zinc-200 bg-zinc-50 px-4 py-6">
-                <span class="block text-3xl font-black text-black sm:text-4xl lg:text-5xl">12</span>
-                <span class="mt-2 block text-[0.68rem] font-black uppercase tracking-[0.22em] text-zinc-500 sm:text-xs">Program</span>
-            </div>
-            <div class="rounded-2xl border border-zinc-200 bg-zinc-50 px-4 py-6">
-                <span class="block text-3xl font-black text-black sm:text-4xl lg:text-5xl">24/7</span>
-                <span class="mt-2 block text-[0.68rem] font-black uppercase tracking-[0.22em] text-zinc-500 sm:text-xs">Konsultasi</span>
-            </div>
-        </div>
-    </div>
-</section>
