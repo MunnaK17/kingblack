@@ -2,7 +2,7 @@
     id="hero" 
     class="hero-section relative isolate overflow-hidden py-0"
     style="
-        background-image: url('{{ asset('images/s.png') }}');
+        background-image: url('{{ asset('images/hero.webp') }}');
         background-size: cover;
         background-position: center 60%;
         background-repeat: no-repeat;
@@ -23,11 +23,11 @@
             </p>
 
             <h1 class="mt-6 max-w-4xl text-4xl font-black leading-tight text-white sm:text-5xl lg:text-6xl" data-reveal="slide-up" data-reveal-delay="120">
-                Siap Lolos Seleksi TNI, Polri, Kedinasan, CPNS, PTN & Kedokteran — Dengan Persiapan yang Benar
+                Siap Lolos Seleksi TNI, Polri, Kedinasan, CPNS, PTN &amp; Kedokteran - Dengan Persiapan yang Benar
             </h1>
 
             <p class="mt-6 max-w-2xl text-base leading-8 text-gray-100 sm:text-lg" data-reveal="slide-up" data-reveal-delay="220">
-                Kami tahu kamu serius ingin lolos. Karena itu, Kingblack Executive hadir bukan hanya untuk mengajari — tapi menemanimu dari nol hingga benar-benar siap menghadapi seleksi secara akademik, fisik, dan mental.
+                Kami tahu kamu serius ingin lolos. Karena itu, Kingblack Executive hadir bukan hanya untuk mengajari - tapi menemanimu dari nol hingga benar-benar siap menghadapi seleksi secara akademik, fisik, dan mental.
             </p>
 
             <div class="hero-actions flex flex-col gap-4 pt-8 sm:flex-row" data-reveal="slide-up" data-reveal-delay="320">

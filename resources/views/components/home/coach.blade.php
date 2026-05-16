@@ -3,8 +3,8 @@
     <div class="relative z-10 grid w-full lg:grid-cols-[0.46fr_0.54fr]">
         <div class="relative min-h-[460px] overflow-hidden bg-black sm:min-h-[560px] lg:min-h-[760px]" data-reveal="slide-right">
             <img
-                src="{{ asset('images/wahyu.png') }}"
-                alt="Coach KINGBLACK saat latihan"
+                src="{{ asset('images/wahyu.webp') }}"
+                alt="Coach KINGBLACK mendampingi latihan fisik seleksi TNI POLRI"
                 class="absolute inset-0 h-full w-full object-cover object-center transition duration-500"
                 data-coach-image
             >
@@ -23,9 +23,9 @@
                     Elite Physical Training
                 </span>
 
-                <h3 class="mt-5 text-4xl font-black uppercase leading-none tracking-tight text-white drop-shadow-2xl sm:text-6xl lg:text-7xl" data-coach-display-name>
+                <div class="mt-5 text-4xl font-black uppercase leading-none tracking-tight text-white drop-shadow-2xl sm:text-6xl lg:text-7xl" data-coach-display-name>
                     Wahyu<br>Setiawan
-                </h3>
+                </div>
 
                 <div class="mt-6 grid max-w-lg grid-cols-3 overflow-hidden rounded-2xl border border-white/12 bg-white/10 text-white backdrop-blur-md">
                     <div class="border-r border-white/10 p-4">
@@ -146,7 +146,7 @@
 
         const coaches = [
             {
-                image: '{{ asset('images/wahyu.png') }}',
+                image: '{{ asset('images/wahyu.webp') }}',
                 badge: 'Elite Physical Training',
                 displayName: 'Wahyu<br>Setiawan',
                 name: 'Coach Wahyu Setiawan',
@@ -158,7 +158,7 @@
                 stats: ['12+', '3', '1:1'],
             },
             {
-                image: '{{ asset('images/ad.png') }}',
+                image: '{{ asset('images/ad.webp') }}',
                 badge: 'Strength Conditioning',
                 displayName: 'Bang<br>black',
                 name: 'Coach Bang Black',

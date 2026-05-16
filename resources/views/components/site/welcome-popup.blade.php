@@ -23,8 +23,8 @@
             aria-label="Hubungi KINGBLACK via WhatsApp"
         >
             <img
-                src="{{ asset('images/poster.png') }}"
-                alt="Promo program KINGBLACK"
+                src="{{ asset('images/poster.webp') }}"
+                alt="Promo pendaftaran program persiapan seleksi KINGBLACK"
                 class="max-h-[86vh] w-full rounded-lg object-contain shadow-2xl transition hover:scale-[1.01]"
             >
         </a>

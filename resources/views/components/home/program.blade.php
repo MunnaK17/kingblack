@@ -2,7 +2,7 @@
     <!-- Background -->
     <div 
         class="absolute inset-0 -z-20 bg-cover bg-center bg-no-repeat opacity-66 grayscale"
-        style="background-image: url('{{ asset('images/asd.jpg') }}');"
+        style="background-image: url('{{ asset('images/program-bg.webp') }}');"
     ></div>
     <div class="absolute inset-0 -z-10 bg-black/85"></div>
     <div class="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_center,rgba(255,215,120,0.08),transparent_40%)]"></div>
@@ -61,26 +61,26 @@
 
                     <ul class="mt-5 space-y-2 text-sm text-gray-200">
                         <li class="flex items-start gap-2">
-                            <span class="mt-1 text-yellow-400">✓</span>
-                            <span>Jasmani & Fisik</span>
+                            <span class="mt-1 text-yellow-400">&check;</span>
+                            <span>Jasmani &amp; Fisik</span>
                         </li>
                         <li class="flex items-start gap-2">
-                            <span class="mt-1 text-yellow-400">✓</span>
+                            <span class="mt-1 text-yellow-400">&check;</span>
                             <span>Akademik</span>
                         </li>
                         <li class="flex items-start gap-2">
-                            <span class="mt-1 text-yellow-400">✓</span>
+                            <span class="mt-1 text-yellow-400">&check;</span>
                             <span>Psikotest</span>
                         </li>
                         <li class="flex items-start gap-2">
-                            <span class="mt-1 text-yellow-400">✓</span>
-                            <span>Strategi & Mental</span>
+                            <span class="mt-1 text-yellow-400">&check;</span>
+                            <span>Strategi &amp; Mental</span>
                         </li>
                     </ul>
 
                     <a href="#pendaftaran" class="mt-8 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-yellow-300 via-yellow-500 to-yellow-600 px-4 py-3 text-sm font-black uppercase tracking-wide text-black transition hover:-translate-y-0.5">
                         Daftar
-                        <span>→</span>
+                        <span>&rarr;</span>
                     </a>
                 </div>
             </article>
@@ -102,14 +102,14 @@
                 </p>
 
                 <ul class="mt-5 space-y-2 text-sm text-gray-200">
-                    <li class="flex items-start gap-2"><span class="mt-1 text-yellow-400">✓</span><span>Latihan Terstruktur</span></li>
-                    <li class="flex items-start gap-2"><span class="mt-1 text-yellow-400">✓</span><span>Tes Fisik Lengkap</span></li>
-                    <li class="flex items-start gap-2"><span class="mt-1 text-yellow-400">✓</span><span>Monitoring Progress</span></li>
+                    <li class="flex items-start gap-2"><span class="mt-1 text-yellow-400">&check;</span><span>Latihan Terstruktur</span></li>
+                    <li class="flex items-start gap-2"><span class="mt-1 text-yellow-400">&check;</span><span>Tes Fisik Lengkap</span></li>
+                    <li class="flex items-start gap-2"><span class="mt-1 text-yellow-400">&check;</span><span>Monitoring Progress</span></li>
                 </ul>
 
                 <a href="#pendaftaran" class="mt-8 inline-flex w-full items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-black uppercase tracking-wide text-white transition hover:border-yellow-500/40 hover:text-yellow-400">
                     Daftar
-                    <span>→</span>
+                    <span>&rarr;</span>
                 </a>
             </article>
 
@@ -131,14 +131,14 @@
                 </p>
 
                 <ul class="mt-5 space-y-2 text-sm text-gray-200">
-                    <li class="flex items-start gap-2"><span class="mt-1 text-yellow-400">✓</span><span>Materi Inti Seleksi</span></li>
-                    <li class="flex items-start gap-2"><span class="mt-1 text-yellow-400">✓</span><span>Try Out & Evaluasi</span></li>
-                    <li class="flex items-start gap-2"><span class="mt-1 text-yellow-400">✓</span><span>Pembahasan Mendalam</span></li>
+                    <li class="flex items-start gap-2"><span class="mt-1 text-yellow-400">&check;</span><span>Materi Inti Seleksi</span></li>
+                    <li class="flex items-start gap-2"><span class="mt-1 text-yellow-400">&check;</span><span>Try Out &amp; Evaluasi</span></li>
+                    <li class="flex items-start gap-2"><span class="mt-1 text-yellow-400">&check;</span><span>Pembahasan Mendalam</span></li>
                 </ul>
 
                 <a href="#pendaftaran" class="mt-8 inline-flex w-full items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-black uppercase tracking-wide text-white transition hover:border-yellow-500/40 hover:text-yellow-400">
                     Daftar
-                    <span>→</span>
+                    <span>&rarr;</span>
                 </a>
             </article>
 
@@ -161,14 +161,14 @@
                 </p>
 
                 <ul class="mt-5 space-y-2 text-sm text-gray-200">
-                    <li class="flex items-start gap-2"><span class="mt-1 text-yellow-400">✓</span><span>Tes Potensi</span></li>
-                    <li class="flex items-start gap-2"><span class="mt-1 text-yellow-400">✓</span><span>Kepribadian</span></li>
-                    <li class="flex items-start gap-2"><span class="mt-1 text-yellow-400">✓</span><span>Wawancara</span></li>
+                    <li class="flex items-start gap-2"><span class="mt-1 text-yellow-400">&check;</span><span>Tes Potensi</span></li>
+                    <li class="flex items-start gap-2"><span class="mt-1 text-yellow-400">&check;</span><span>Kepribadian</span></li>
+                    <li class="flex items-start gap-2"><span class="mt-1 text-yellow-400">&check;</span><span>Wawancara</span></li>
                 </ul>
 
                 <a href="#pendaftaran" class="mt-8 inline-flex w-full items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-black uppercase tracking-wide text-white transition hover:border-yellow-500/40 hover:text-yellow-400">
                     Daftar
-                    <span>→</span>
+                    <span>&rarr;</span>
                 </a>
             </article>
         </div>

@@ -4,8 +4,6 @@ namespace App\Support;
 
 class Whatsapp
 {
-    public const NUMBER = '6281234567890';
-
     private const MESSAGES = [
         'hero' => 'Halo, saya ingin konsultasi program KINGBLACK',
         'executive' => 'Halo, saya tertarik dengan Program Executive KINGBLACK',
@@ -17,7 +15,8 @@ class Whatsapp
     public static function url(string $context): string
     {
         $message = self::MESSAGES[$context] ?? self::MESSAGES['hero'];
+        $number = config('seo.whatsapp_number', '6289655655144');
 
-        return 'https://wa.me/' . self::NUMBER . '?text=' . rawurlencode($message);
+        return 'https://wa.me/' . $number . '?text=' . rawurlencode($message);
     }
 }

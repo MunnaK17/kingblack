@@ -7,7 +7,7 @@
                 class="inline-flex min-w-0 shrink-0 items-center gap-3 text-lg font-bold tracking-tight text-black sm:text-xl"
                 aria-label="KINGBLACK home"
             >
-                <img src="{{ asset('images/logos.png') }}" alt="" class="h-9 w-9 shrink-0 object-contain">
+                <img src="{{ asset('images/logos.png') }}" alt="Logo KINGBLACK" class="h-9 w-9 shrink-0 object-contain">
                 <span class="truncate">KINGBLACK</span>
             </a>
 

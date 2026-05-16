@@ -9,7 +9,7 @@
     <div
         class="absolute inset-y-0 right-0 z-0 hidden w-[48%] bg-cover bg-center bg-no-repeat grayscale lg:block"
         style="
-            background-image: url('{{ asset('images/group.jpg') }}');
+            background-image: url('{{ asset('images/group.webp') }}');
             clip-path: polygon(14% 0, 100% 0, 100% 100%, 0 100%);
         "
     ></div>
@@ -26,7 +26,7 @@
     <!-- Mobile Background Image -->
     <div
         class="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-10 grayscale lg:hidden"
-        style="background-image: url('{{ asset('images/solo.jpg') }}');"
+        style="background-image: url('{{ asset('images/solo.webp') }}');"
     ></div>
 
     <!-- Subtle Diagonal Separator -->

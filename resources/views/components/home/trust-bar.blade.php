@@ -1,7 +1,7 @@
 <section  
     id="trust-bar"
     class="trust-bar relative isolate overflow-hidden bg-cover bg-center bg-no-repeat py-20 sm:py-32" 
-    style="background-image: url('{{ asset('images/blacks.jpg') }}');"
+    style="background-image: url('{{ asset('images/trust-bg.webp') }}');"
     aria-label="Pilihan tujuan institusi"
 >
     {{-- Background overlay --}}

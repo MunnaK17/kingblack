@@ -3,17 +3,17 @@
         [
             'title' => 'Area Latihan Lari dan Fisik',
             'description' => 'Fasilitas latihan untuk menunjang persiapan jasmani seperti lari, push-up, sit-up, pull-up, dan latihan ketahanan tubuh.',
-            'image' => 'images//madya.jpg',
+            'image' => 'images/madya.webp',
         ],
         [
             'title' => 'Area GYM',
             'description' => 'Fasilitas GYM dengan peralatan lengkap untuk latihan kekuatan otot, kebugaran, dan persiapan fisik yang optimal bagi peserta.',
-            'image' => 'images/gym.jpg',
+            'image' => 'images/gym.webp',
         ],
         [
             'title' => 'Stadion Akuatik',
             'description' => 'Fasilitas kolam renang untuk latihan renang yang mendukung persiapan fisik dan ketahanan tubuh peserta dalam menghadapi tantangan seleksi.',
-            'image' => 'images/renang.jpg',
+            'image' => 'images/renang-facility.webp',
         ],
     ];
 @endphp
@@ -55,7 +55,7 @@
                     <div class="aspect-[3/4] overflow-hidden bg-gray-100">
                         <img
                             src="{{ asset($facility['image']) }}"
-                            alt="{{ $facility['title'] }}"
+                            alt="{{ $facility['title'] }} untuk latihan persiapan seleksi di KINGBLACK"
                             class="h-full w-full object-cover object-center grayscale transition duration-500 group-hover:scale-105 group-hover:grayscale-0"
                         >
                     </div>

@@ -29,19 +29,19 @@
 
                 <div class="mt-5 space-y-4 text-sm leading-7 text-gray-700 text-justify" data-reveal="slide-left" data-reveal-delay="120">
                     <p>
-                        Banyak yang bermimpi masuk TNI, Polri, atau sekolah kedinasan. Tapi tidak semua tahu cara mempersiapkan dirinya dengan benar. Di Kingblack Executive, kamu tidak akan dibiarkan belajar sendiri. Kita petakan kelemahanmu, kita benahi bersama — dari akademik, fisik, sampai hal-hal teknis yang sering terlewat.
+                        Banyak yang bermimpi masuk TNI, Polri, atau sekolah kedinasan. Tapi tidak semua tahu cara mempersiapkan dirinya dengan benar. Di Kingblack Executive, kamu tidak akan dibiarkan belajar sendiri. Kita petakan kelemahanmu, kita benahi bersama - dari akademik, fisik, sampai hal-hal teknis yang sering terlewat.
                     </p>
 
                     <p>
-                        Banyak yang gagal bukan karena tidak mampu — tapi karena tidak tahu harus mulai dari mana. Mereka punya potensi, tapi tidak punya arahan. Satu tahun berlalu, dan kesempatan itu tidak bisa diulang. Jangan sampai itu terjadi padamu.
+                        Banyak yang gagal bukan karena tidak mampu - tapi karena tidak tahu harus mulai dari mana. Mereka punya potensi, tapi tidak punya arahan. Satu tahun berlalu, dan kesempatan itu tidak bisa diulang. Jangan sampai itu terjadi padamu.
                     </p>
 
                     <p>
-                        Bersama Kingblack, kamu akan didampingi dari awal sampai akhir — mulai dari pemberkasan, tes kemampuan dasar, tes jasmani, hingga tahapan seleksi lainnya. Setiap langkah kamu akan terasa lebih ringan, karena kamu tidak melewatinya sendiri.
+                        Bersama Kingblack, kamu akan didampingi dari awal sampai akhir - mulai dari pemberkasan, tes kemampuan dasar, tes jasmani, hingga tahapan seleksi lainnya. Setiap langkah kamu akan terasa lebih ringan, karena kamu tidak melewatinya sendiri.
                     </p>
 
                     <p>
-                        Mau masuk Akmil, AKPOL, atau Sekolah Kedinasan? Kingblack Executive siap jadi teman perjalananmu — dari hari pertama persiapan hingga kamu benar-benar lolos.
+                        Mau masuk Akmil, AKPOL, atau Sekolah Kedinasan? Kingblack Executive siap jadi teman perjalananmu - dari hari pertama persiapan hingga kamu benar-benar lolos.
                     </p>
                 </div>
             </div>

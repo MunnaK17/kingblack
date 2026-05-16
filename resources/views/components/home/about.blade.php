@@ -9,8 +9,8 @@
         <!-- Image Left -->
         <div class="relative min-h-[320px] sm:min-h-[420px] lg:min-h-[640px]" data-reveal="slide-right">
             <img 
-                src="{{ asset('images/renang.png') }}" 
-                alt="Kegiatan latihan KINGBLACK" 
+                src="{{ asset('images/renang.webp') }}" 
+                alt="Latihan fisik persiapan seleksi TNI POLRI di KINGBLACK" 
                 class="absolute inset-0 h-full w-full object-cover object-center grayscale"
             />
 
@@ -55,7 +55,7 @@
                 </div>
 
                 <blockquote class="mt-6 border-l-4 border-black bg-white/75 px-5 py-4 text-sm font-medium leading-7 text-gray-900 shadow-sm backdrop-blur-sm sm:mt-8 sm:px-6 sm:py-5 sm:text-base" data-reveal="zoom-in" data-reveal-delay="180">
-                    <span class="block text-4xl font-black leading-none text-black">“</span>
+                    <span class="block text-4xl font-black leading-none text-black">&ldquo;</span>
                     Disiplin adalah jembatan antara target dan hasil. Di KINGBLACK, kami membantu kamu
                     melewati jembatan itu dengan persiapan yang nyata.
                 </blockquote>
